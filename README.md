@@ -74,7 +74,7 @@ For the full list of implemented features, please refer to the [project board]**
 - The data in this project, including the parks' metadata, ride names, locations and wait times is fetched from [Queue Times API](https://queue-times.com/)
 
 ### Media
-- Home page animation from [Lottie Animation](https://lottiefiles.com/free-animation/roller-coaster-sA1NACEeoj),licensed under FL 9.13.21.
+- Home page animation from [Lottie Animation](https://lottiefiles.com/free-animation/roller-coaster-sA1NACEeoj), licensed under FL 9.13.21.
  
 ### Code
 - Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
