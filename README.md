@@ -2,6 +2,8 @@
 ### Theme park queue times analysis.
 Digital Futures DE12 Capstone Project - ETL and Streamlit
 
+![RollerCoaster Tycoon gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsMWFlNnFlcDZtdzNlZzRpOHNiNXF1M3RmYW9uajh5eDVrYXdwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gt0j4zPgzHL8pTPiqc/giphy.gif)
+
 ## Contents
 - [UX and Design](https://github.com/maria-grozova/queuevue/edit/main/README.md#ux-and-design)
   - [Site goals](https://github.com/maria-grozova/queuevue/edit/main/README.md#site-goals)
@@ -75,6 +77,7 @@ For the full list of implemented features, please refer to the [project board]**
 
 ### Media
 - Home page animation from [Lottie Animation](https://lottiefiles.com/free-animation/roller-coaster-sA1NACEeoj), licensed under FL 9.13.21.
+- Gif used in the ReadMe file is from [Giphy](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsMWFlNnFlcDZtdzNlZzRpOHNiNXF1M3RmYW9uajh5eDVrYXdwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gt0j4zPgzHL8pTPiqc/giphy.gif)
  
 ### Code
 - Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
