@@ -2,7 +2,7 @@
 ### Theme park queue times analysis.
 Digital Futures DE12 Capstone Project - ETL and Streamlit
 
-![RollerCoaster Tycoon gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsMWFlNnFlcDZtdzNlZzRpOHNiNXF1M3RmYW9uajh5eDVrYXdwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gt0j4zPgzHL8pTPiqc/giphy.gif)
+![RollerCoaster Tycoon gif]***
 
 ## Contents
 - [UX and Design](https://github.com/maria-grozova/queuevue/edit/main/README.md#ux-and-design)
