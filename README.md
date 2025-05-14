@@ -78,7 +78,14 @@ For the full list of implemented features, please refer to the [project board]**
 ### Media
 - Home page animation from [Lottie Animation](https://lottiefiles.com/free-animation/roller-coaster-sA1NACEeoj), licensed under FL 9.13.21.
 - Gif used in the ReadMe file is from [Giphy](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsMWFlNnFlcDZtdzNlZzRpOHNiNXF1M3RmYW9uajh5eDVrYXdwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gt0j4zPgzHL8pTPiqc/giphy.gif)
- 
+
+### Code
+- Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
+- [Streamlit documentation](https://docs.streamlit.io/) for reference
+- [Pandas documentation](https://pandas.pydata.org/docs/) for reference
+- Digital Futures - [ETL Project Demo](https://github.com/de-2502-a/etl-project-demo/tree/initial-project-setup) was referenced for the initial commit of this project
+- Special thank you to Hamza, Alex and Bassmah at Digital Futures for support and tips
+
 ### Code
 - Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
 - [Streamlit documentation](https://docs.streamlit.io/) for reference
