@@ -25,18 +25,16 @@ def transform_parks():
             meta=["id", "name"],
             meta_prefix="company_"
         )
+        # Rename columns for clarity
         parks_df.rename(columns={"id": "park_id", "name": "park_name"}, inplace=True)
-
-        if "id" in parks_df.columns:
-            parks_df.set_index("id", inplace=True)
+        # Set index to park_id
+        parks_df.set_index("park_id", inplace=True)
 
         return parks_df
     except FileNotFoundError:
         print(f"Error: {PARKS_FILE} not found.")
-        return pd.DataFrame()
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON in {PARKS_FILE}: {e}")
-        return pd.DataFrame()
 
 
 def transform_queue_times():
@@ -86,10 +84,8 @@ def transform_queue_times():
         return df_rides
     except FileNotFoundError:
         print(f"Error: {QUEUE_TIMES_FILE} not found.")
-        return pd.DataFrame()
     except ValueError as e:
         print(f"Error reading JSON in {QUEUE_TIMES_FILE}: {e}")
-        return pd.DataFrame()
 
 
 def merge_dataframes(df_parks, df_rides):
