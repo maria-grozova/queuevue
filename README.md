@@ -2,10 +2,10 @@
 ### Theme park queue times analysis.
 Digital Futures DE12 Capstone Project - ETL and Streamlit
 
-![RollerCoaster Tycoon gif](https://github.com/maria-grozova/queuevue/readme_media/rollercoaster_tycoon.gif)
+![RollerCoaster Tycoon gif](/readme_media/rollercoaster_tycoon.gif)
 
 ## Contents
-- [UX and Design](https://github.com/maria-grozova/queuevue/README.md##ux-and-design)
+- [UX and Design](#ux-and-design)
   - [Site goals](https://github.com/maria-grozova/queuevue/README.md###site-goals)
   - [Direction](https://github.com/maria-grozova/queuevue/README.md###direction)
   - [User stories](https://github.com/maria-grozova/queuevue/README.md###user-stories)
@@ -38,26 +38,31 @@ How might we:
 
 ### User stories
 I identified 5 user user stories for the MVP.
-The project progress was planned and tracked using Agile, as documented here in [GitHub Project]
+The project progress was planned and tracked using Agile, as documented here in [GitHub Project](https://github.com/users/maria-grozova/projects/7)
 
 ### Schema design
 ***
 
 ### Design choices
+<a href="Windows 95"><img src="/readme_media/windows_95.png" align="right" width="20%" ></a> 
+<a href="WebAim Screenshot"><img src="/readme_media/colour_contrast_check.png" align="right" width="20%" ></a> 
 I have always been a fan of theme parks and used to spend many hours playing RollerCoaster Tycoon on the family PC. While I continue to be a fan of visiting theme parks as an adult, there is a special place in my heart for the design aesthetic of the 1999 game and Windows 95 OS it used to run on. I chose to evoke the classic Windows 95 colour scheme in the QueueVue web app, adjusting the original background colour #2B8282 to a lighter #00ABAD to ensure colour contrast accessibility adherence with the use of black font.
 
-![Windows 95](https://github.com/maria-grozova/queuevue/readme_media/windows_95.png)
-![WebAim screenshot](https://github.com/maria-grozova/queuevue/readme_media/colour_contrast_check.png))
+
 
 ## Features
 ### Existing features
 - **********
 
-For the full list of implemented features, please refer to the [project board]***
+For the full list of implemented features, please refer to the [project board](https://github.com/users/maria-grozova/projects/7)
 
 ### Planned features
 - ***
-
+## Project learnings
+This being my first end-to-end ETL project, I encountered a number of challenges which resulted in a lot of learnings for future work.
+### Data source
+Nested JSON bad
+![JSON structure](/readme_media/json_structure_diagram.png)
 ## Testing
 ### Manual testing
 - ***
@@ -78,6 +83,9 @@ For the full list of implemented features, please refer to the [project board]**
 ### Media
 - Home page animation from [Lottie Animation](https://lottiefiles.com/free-animation/roller-coaster-sA1NACEeoj), licensed under FL 9.13.21.
 - Gif used in the ReadMe file is from [Giphy](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsMWFlNnFlcDZtdzNlZzRpOHNiNXF1M3RmYW9uajh5eDVrYXdwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gt0j4zPgzHL8pTPiqc/giphy.gif)
+- Windows 95 screen for the ReadMe is from [Wikipedia](https://en.wikipedia.org/wiki/Windows_95)
+- Colour contrast checker screenshot made using [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- JSON structure diagram made using [Lucidchart](https://www.lucidchart.com/)
 
 ### Code
 - Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
@@ -86,9 +94,3 @@ For the full list of implemented features, please refer to the [project board]**
 - Digital Futures - [ETL Project Demo](https://github.com/de-2502-a/etl-project-demo/tree/initial-project-setup) was referenced for the initial commit of this project
 - Special thank you to Hamza, Alex and Bassmah at Digital Futures for support and tips
 
-### Code
-- Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
-- [Streamlit documentation](https://docs.streamlit.io/) for reference
-- [Pandas documentation](https://pandas.pydata.org/docs/) for reference
-- Digital Futures - [ETL Project Demo](https://github.com/de-2502-a/etl-project-demo/tree/initial-project-setup) was referenced for the initial commit of this project
-- Special thank you to Hamza, Alex and Bassmah at Digital Futures for support and tips
