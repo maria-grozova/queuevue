@@ -1,13 +1,24 @@
-# Map
+import pandas as pd
+
+# Theme park locations page
+# Map visualisation - using filtered full dataframe
 map_df = full_df.filter(['park_name', 'latitude', 'longitude'])
 map_df = map_df.drop_duplicates(subset=['name', 'latitude', 'longitude'])
 map_df = map_df.dropna(subset=['latitude', 'longitude'])
 
-# Max time
+# Theme parks tracked by continent
+
+# Theme park count by country
+
+# Wait time stats page
+# Continents selector
+
+# Average ride wait times by theme park - NEED TO FILTER BY OPEN/CLOSED
+
+# Longest wait times per continent - save to separate csv file
 max_wait_time_per_continent = full_df.loc[
     full_df.groupby("continent")["wait_time"].idxmax()
 ]
 max_wait_time_per_continent = max_wait_time_per_continent.drop(columns=['ride_id', 'latitude', 'longitude', 'timezone', 'company_id', 'company_name', 'park_id', 'timestamp', 'is_open', 'last_updated'])
 max_wait_time_per_continent = max_wait_time_per_continent.set_index('continent')
-# Display the result
 max_wait_time_per_continent.to_csv('max_wait_time_per_continent.csv', index=True)
