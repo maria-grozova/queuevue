@@ -10,6 +10,7 @@ CLEANED_FILE = SOURCE_DATA_DIR / "cleaned_dataframe.csv"
 # Ensure output directory exists
 CLEANED_FILE.parent.mkdir(parents=True, exist_ok=True)
 
+
 def clean_dataframe():
     """Clean the merged dataframe."""
     try:
@@ -18,7 +19,6 @@ def clean_dataframe():
     except FileNotFoundError:
         print(f"Error: {ORIGINAL_DATAFRAME} not found.")
         return
-   
 
     # Drop unnecessary columns
     df = df.drop(columns=['company_id', 'company_name', 'timezone', 'timestamp', 'land_name', 'land_id'])
@@ -59,7 +59,7 @@ def format_date(df):
         if pd.notnull(dt) 
         else None
         )
-    
+
     df = df.drop(columns=['last_updated']) # Drop the original last_updated column as no longer needed
     return df
 
@@ -77,9 +77,10 @@ def save_dataframe(df):
 
 # Main function for cleaning
 def main():
-    df =  clean_dataframe()
+    df = clean_dataframe()
     df = format_date(df)
     save_dataframe(df)
+
 
 if __name__ == "__main__":
     main()
