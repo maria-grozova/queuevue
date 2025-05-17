@@ -2,27 +2,27 @@
 ### Theme park queue times analysis.
 Digital Futures DE12 Capstone Project - ETL and Streamlit
 
-![RollerCoaster Tycoon gif]***
+![RollerCoaster Tycoon gif](https://github.com/maria-grozova/queuevue/readme_media/rollercoaster_tycoon.gif)
 
 ## Contents
-- [UX and Design](https://github.com/maria-grozova/queuevue/edit/main/README.md#ux-and-design)
-  - [Site goals](https://github.com/maria-grozova/queuevue/edit/main/README.md#site-goals)
-  - [Direction](https://github.com/maria-grozova/queuevue/edit/main/README.md#direction)
-  - [User stories](https://github.com/maria-grozova/queuevue/edit/main/README.md#user-stories)
-  - [Schema design](https://github.com/maria-grozova/queuevue/edit/main/README.md#schema-design)
-  - [Design choices](https://github.com/maria-grozova/queuevue/edit/main/README.md#design-choices)
-- [Features](https://github.com/maria-grozova/queuevue/edit/main/README.md#features)
-  - [Existing features](https://github.com/maria-grozova/queuevue/edit/main/README.md#existing-features)
-  - [Planned features](https://github.com/maria-grozova/queuevue/edit/main/README.md#planned-features)
-- [Testing](https://github.com/maria-grozova/queuevue/edit/main/README.md#testing)
-  - [Manual testing](https://github.com/maria-grozova/queuevue/edit/main/README.md#manual-testing)
-  - [Validator testing](https://github.com/maria-grozova/queuevue/edit/main/README.md#validator-testing)
-- [Deployment](https://github.com/maria-grozova/queuevue/edit/main/README.md#deployment)
-  - [Live link](https://github.com/maria-grozova/queuevue/edit/main/README.md#live-link)
-- [Resources and credits](https://github.com/maria-grozova/queuevue/edit/main/README.md#resources-and-credits)
-  - [Data](https://github.com/maria-grozova/queuevue/edit/main/README.md#data)
-  - [Media](https://github.com/maria-grozova/queuevue/edit/main/README.md#media)
-  - [Code](https://github.com/maria-grozova/queuevue/edit/main/README.md#code)
+- [UX and Design](https://github.com/maria-grozova/queuevue/README.md#ux-and-design)
+  - [Site goals](https://github.com/maria-grozova/queuevue/README.md#site-goals)
+  - [Direction](https://github.com/maria-grozova/queuevue/README.md#direction)
+  - [User stories](https://github.com/maria-grozova/queuevue/README.md#user-stories)
+  - [Schema design](https://github.com/maria-grozova/queuevue/README.md#schema-design)
+  - [Design choices](https://github.com/maria-grozova/queuevue/README.md#design-choices)
+- [Features](https://github.com/maria-grozova/queuevue/README.md#features)
+  - [Existing features](https://github.com/maria-grozova/queuevue/README.md#existing-features)
+  - [Planned features](https://github.com/maria-grozova/queuevue/README.md#planned-features)
+- [Testing](https://github.com/maria-grozova/queuevue/README.md#testing)
+  - [Manual testing](https://github.com/maria-grozova/queuevue/README.md#manual-testing)
+  - [Validator testing](https://github.com/maria-grozova/queuevue/README.md#validator-testing)
+- [Deployment](https://github.com/maria-grozova/queuevue/README.md#deployment)
+  - [Live link](https://github.com/maria-grozova/queuevue/README.md#live-link)
+- [Resources and credits](https://github.com/maria-grozova/queuevue/README.md#resources-and-credits)
+  - [Data](https://github.com/maria-grozova/queuevue/README.md#data)
+  - [Media](https://github.com/maria-grozova/queuevue/README.md#media)
+  - [Code](https://github.com/maria-grozova/queuevue/README.md#code)
 
 ## UX and Design
 ### Site goals
