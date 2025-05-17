@@ -5,24 +5,24 @@ Digital Futures DE12 Capstone Project - ETL and Streamlit
 ![RollerCoaster Tycoon gif](https://github.com/maria-grozova/queuevue/readme_media/rollercoaster_tycoon.gif)
 
 ## Contents
-- [UX and Design](https://github.com/maria-grozova/queuevue/README.md#ux-and-design)
-  - [Site goals](https://github.com/maria-grozova/queuevue/README.md#site-goals)
-  - [Direction](https://github.com/maria-grozova/queuevue/README.md#direction)
-  - [User stories](https://github.com/maria-grozova/queuevue/README.md#user-stories)
-  - [Schema design](https://github.com/maria-grozova/queuevue/README.md#schema-design)
-  - [Design choices](https://github.com/maria-grozova/queuevue/README.md#design-choices)
-- [Features](https://github.com/maria-grozova/queuevue/README.md#features)
-  - [Existing features](https://github.com/maria-grozova/queuevue/README.md#existing-features)
-  - [Planned features](https://github.com/maria-grozova/queuevue/README.md#planned-features)
-- [Testing](https://github.com/maria-grozova/queuevue/README.md#testing)
-  - [Manual testing](https://github.com/maria-grozova/queuevue/README.md#manual-testing)
-  - [Validator testing](https://github.com/maria-grozova/queuevue/README.md#validator-testing)
-- [Deployment](https://github.com/maria-grozova/queuevue/README.md#deployment)
-  - [Live link](https://github.com/maria-grozova/queuevue/README.md#live-link)
-- [Resources and credits](https://github.com/maria-grozova/queuevue/README.md#resources-and-credits)
-  - [Data](https://github.com/maria-grozova/queuevue/README.md#data)
-  - [Media](https://github.com/maria-grozova/queuevue/README.md#media)
-  - [Code](https://github.com/maria-grozova/queuevue/README.md#code)
+- [UX and Design](https://github.com/maria-grozova/queuevue/README.md##ux-and-design)
+  - [Site goals](https://github.com/maria-grozova/queuevue/README.md###site-goals)
+  - [Direction](https://github.com/maria-grozova/queuevue/README.md###direction)
+  - [User stories](https://github.com/maria-grozova/queuevue/README.md###user-stories)
+  - [Schema design](https://github.com/maria-grozova/queuevue/README.md###schema-design)
+  - [Design choices](https://github.com/maria-grozova/queuevue/README.md###design-choices)
+- [Features](https://github.com/maria-grozova/queuevue/README.md##features)
+  - [Existing features](https://github.com/maria-grozova/queuevue/README.md###existing-features)
+  - [Planned features](https://github.com/maria-grozova/queuevue/README.md###planned-features)
+- [Testing](https://github.com/maria-grozova/queuevue/README.md##testing)
+  - [Manual testing](https://github.com/maria-grozova/queuevue/README.md###manual-testing)
+  - [Validator testing](https://github.com/maria-grozova/queuevue/README.md###validator-testing)
+- [Deployment](https://github.com/maria-grozova/queuevue/README.md##deployment)
+  - [Live link](https://github.com/maria-grozova/queuevue/README.md###live-link)
+- [Resources and credits](https://github.com/maria-grozova/queuevue/README.md##resources-and-credits)
+  - [Data](https://github.com/maria-grozova/queuevue/README.md###data)
+  - [Media](https://github.com/maria-grozova/queuevue/README.md###media)
+  - [Code](https://github.com/maria-grozova/queuevue/README.md###code)
 
 ## UX and Design
 ### Site goals
@@ -46,8 +46,8 @@ The project progress was planned and tracked using Agile, as documented here in 
 ### Design choices
 I have always been a fan of theme parks and used to spend many hours playing RollerCoaster Tycoon on the family PC. While I continue to be a fan of visiting theme parks as an adult, there is a special place in my heart for the design aesthetic of the 1999 game and Windows 95 OS it used to run on. I chose to evoke the classic Windows 95 colour scheme in the QueueVue web app, adjusting the original background colour #2B8282 to a lighter #00ABAD to ensure colour contrast accessibility adherence with the use of black font.
 
-![Windows 95](https://github.com/)
-![WebAim screenshot](https://github.com/user-attachments/)
+![Windows 95](https://github.com/maria-grozova/queuevue/readme_media/windows_95.png)
+![WebAim screenshot](https://github.com/maria-grozova/queuevue/readme_media/colour_contrast_check.png))
 
 ## Features
 ### Existing features
