@@ -119,7 +119,7 @@ def max_wait_time_per_continent():
     ])
     max_wait_time_per_continent = max_wait_time_per_continent.set_index('continent')
     # Save to CSV
-    max_wait_time_per_continent.to_csv(MAX_WAIT_FILE, index=False)
+    max_wait_time_per_continent.to_csv(MAX_WAIT_FILE, index=True)
     print(f"Max wait per continent dataframe saved to {MAX_WAIT_FILE}")
 
 
