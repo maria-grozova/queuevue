@@ -26,7 +26,7 @@ Digital Futures DE12 Capstone Project - ETL and Streamlit
 
 ## UX and Design
 ### Site goals
-Our web app will let users explore data analysis based on the wait times data for theme parks which will affect theme park and data enthusiasts by being able to learn some interesting trends, facts and enjoy a visual representation of this data.
+Our web app will let users explore data analysis based on the wait times data for global theme parks which will affect theme park and data enthusiasts by being able to learn some interesting trends, facts and enjoy a visual representation of this data.
 
 ### Direction
 The principles and needs that were considered.
@@ -52,12 +52,23 @@ I have always been a fan of theme parks and used to spend many hours playing Rol
 
 ## Features
 ### Existing features
-- **********
-
-For the full list of implemented features, please refer to the [project board](https://github.com/users/maria-grozova/projects/7)
+- Home page
+Clean but informative landing page explaining the purpose of the app, CTA, reference to the data source and an animation for some visual interest
+- Theme park locations map
+This shows the location of each theme park in the dataset as a marker on a map
+- Counter of theme parks by continent
+Metrics showing the number of theme parks in each continent
+- Bar chart showing the number of theme parks by country
+The chart displays how many theme parks are in each country, colour coded by continent. This allows users to gauge theme park popularity in different areas.
+- Selector to filter the wait times page by continent
+The selector lets users filter the page results by continent. This is a single-select filter, default value is Europe
+- Bar chart showing the average wait time by ride, grouped by theme park
+The chart shows the average wait time for each ride, grouped by theme park. The data is filtered by continent (user input). It is worth noting that some rides and parks have an average wait time of 0 minutes, in which case the chart won't display visuals
+- Metric displaying the longest recorded wait time
+This shows the longest recorded wait time in the region (continent - user input), as well as the ride name, theme park, country and date the wait time was recorded
 
 ### Planned features
-- ***
+- Live wait times page
 ## Project learnings
 This being my first end-to-end ETL project, I encountered a number of challenges which resulted in a lot of learnings for future work.
 ### Data source
@@ -85,7 +96,7 @@ Nested JSON bad
 - Gif used in the ReadMe file is from [Giphy](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajNsMWFlNnFlcDZtdzNlZzRpOHNiNXF1M3RmYW9uajh5eDVrYXdwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gt0j4zPgzHL8pTPiqc/giphy.gif)
 - Windows 95 screen for the ReadMe is from [Wikipedia](https://en.wikipedia.org/wiki/Windows_95)
 - Colour contrast checker screenshot made using [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-- JSON structure diagram made using [Lucidchart](https://www.lucidchart.com/)
+- JSON structure diagram and schema design made using [Lucidchart](https://www.lucidchart.com/)
 
 ### Code
 - Code for the animation implementation on the home page was sourced from [Geeks For Geeks Article](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
