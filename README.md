@@ -41,30 +41,39 @@ I identified 5 user user stories for the MVP.
 The project progress was planned and tracked using Agile, as documented here in [GitHub Project](https://github.com/users/maria-grozova/projects/7)
 
 ### Schema design
-***
+The initial schema design was intended to be a single CSV file, however due to encountering challenges over the time of the project this was adapted to 5 separate files using filtered views of the dataframe to calculate additional fields. The schema would be reviewed for v.2, given continuous development of the project. The chart shows the cleaned dataframe on the left and the final enriched output files on the right.
+*******
 
 ### Design choices
 <a href="Windows 95"><img src="/readme_media/windows_95.png" align="right" width="20%" ></a> 
 <a href="WebAim Screenshot"><img src="/readme_media/colour_contrast_check.png" align="right" width="20%" ></a> 
 I have always been a fan of theme parks and used to spend many hours playing RollerCoaster Tycoon on the family PC. While I continue to be a fan of visiting theme parks as an adult, there is a special place in my heart for the design aesthetic of the 1999 game and Windows 95 OS it used to run on. I chose to evoke the classic Windows 95 colour scheme in the QueueVue web app, adjusting the original background colour #2B8282 to a lighter #00ABAD to ensure colour contrast accessibility adherence with the use of black font.
 
-
-
 ## Features
 ### Existing features
 - Home page
-Clean but informative landing page explaining the purpose of the app, CTA, reference to the data source and an animation for some visual interest
+******
+Clean but informative landing page explaining the purpose of the app, reference to the data source and an animation for some visual interest
+- Sidebar
+******
+Simple navigation sidebar that can be toggled in or out, with CTA and a list of pages
 - Theme park locations map
+********
 This shows the location of each theme park in the dataset as a marker on a map
 - Counter of theme parks by continent
+********
 Metrics showing the number of theme parks in each continent
 - Bar chart showing the number of theme parks by country
+********
 The chart displays how many theme parks are in each country, colour coded by continent. This allows users to gauge theme park popularity in different areas.
 - Selector to filter the wait times page by continent
+********
 The selector lets users filter the page results by continent. This is a single-select filter, default value is Europe
 - Bar chart showing the average wait time by ride, grouped by theme park
+********
 The chart shows the average wait time for each ride, grouped by theme park. The data is filtered by continent (user input). It is worth noting that some rides and parks have an average wait time of 0 minutes, in which case the chart won't display visuals
 - Metric displaying the longest recorded wait time
+********
 This shows the longest recorded wait time in the region (continent - user input), as well as the ride name, theme park, country and date the wait time was recorded
 
 ### Planned features
