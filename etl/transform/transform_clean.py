@@ -21,7 +21,14 @@ def clean_dataframe():
         return
 
     # Drop unnecessary columns
-    df = df.drop(columns=['company_id', 'company_name', 'timezone', 'timestamp', 'land_name', 'land_id'])
+    df = df.drop(columns=[
+        'company_id',
+        'company_name',
+        'timezone',
+        'timestamp',
+        'land_name',
+        'land_id'
+    ])
 
     # Change data types
     df = df.astype({
@@ -39,7 +46,7 @@ def clean_dataframe():
     return df
 
 
-# Transform the date to a more readable format 
+# Transform the date to a more readable format
 def transform_date_num(dt):
     """Transform the date number to include suffix"""
     day = dt.day
@@ -55,12 +62,13 @@ def format_date(df):
     df['last_updated'] = pd.to_datetime(df['last_updated'], errors='coerce')
 
     df['date'] = df['last_updated'].apply(
-        lambda dt: transform_date_num(dt) 
-        if pd.notnull(dt) 
+        lambda dt: transform_date_num(dt)
+        if pd.notnull(dt)
         else None
         )
 
-    df = df.drop(columns=['last_updated']) # Drop the original last_updated column as no longer needed
+    # Drop the original last_updated column as no longer needed
+    df = df.drop(columns=['last_updated'])
     return df
 
 

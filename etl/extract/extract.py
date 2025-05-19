@@ -1,7 +1,6 @@
 import requests
 import json
 from datetime import datetime, timezone
-import time
 from pathlib import Path
 
 PARKS_URL = "https://queue-times.com/parks.json"
@@ -12,6 +11,7 @@ OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 PARKS_FILE = OUTPUT_DIR / "parks.json"
 QUEUE_FILE = OUTPUT_DIR / "queue_times_log.jsonl"
+
 
 # Fetch and save parks metadata
 def save_parks_metadata():
@@ -29,7 +29,7 @@ def save_parks_metadata():
             return
 
         with open(PARKS_FILE, "w", encoding="utf-8") as f:
-            json.dump(response.json(), f, indent=2)
+            json.dump(data, f, indent=2)
 
         print("Saved original parks.json data.")
     except requests.RequestException as e:
@@ -70,11 +70,12 @@ def update_queue_times():
             f.write(json.dumps(record) + "\n")
 
         print(f"Appended data at {datetime.now(timezone.utc).isoformat()}")
-        
+
 
 def main():
     save_parks_metadata()
     update_queue_times()
+
 
 if __name__ == "__main__":
     main()

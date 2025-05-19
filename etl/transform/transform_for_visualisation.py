@@ -8,11 +8,12 @@ CLEANED_DATAFRAME = SOURCE_DATA_DIR / "cleaned_dataframe.csv"
 AVERAGE_WAIT_FILE = SOURCE_DATA_DIR.parent / "outputs" / "average_wait.csv"
 MAP_FILE = SOURCE_DATA_DIR.parent / "outputs" / "map_dataframe.csv"
 BY_COUNTRY_FILE = SOURCE_DATA_DIR.parent / "outputs" / "parks_by_country.csv"
-BY_CONTINENT_FILE = SOURCE_DATA_DIR.parent / "outputs" / "parks_by_continent.csv"
-MAX_WAIT_FILE = SOURCE_DATA_DIR.parent / "outputs" / "max_wait_time_per_continent.csv"
+BY_CONT_FILE = SOURCE_DATA_DIR.parent / "outputs" / "parks_by_continent.csv"
+MAX_WAIT = SOURCE_DATA_DIR.parent / "outputs" / "max_wait_per_continent.csv"
 
 # Ensure output directory exists
 AVERAGE_WAIT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
 
 # Create separate dataframe to display map
 def create_map_dataframe():
@@ -24,12 +25,22 @@ def create_map_dataframe():
         print(f"Error: {CLEANED_DATAFRAME} not found.")
         return
     # Drop unnecessary columns
-    map_df = df.drop(columns=['ride_id', 'ride_name', 'wait_time', 'is_open', 'park_name', 'country', 'continent', 'date'])
+    map_df = df.drop(columns=[
+        'ride_id',
+        'ride_name',
+        'wait_time',
+        'is_open',
+        'park_name',
+        'country',
+        'continent',
+        'date'
+    ])
     # Remove duplicates
     map_df = map_df.drop_duplicates(subset=['park_id'])
     # Save to CSV
     map_df.to_csv(MAP_FILE, index=False)
     print(f"Map dataframe saved to {MAP_FILE}")
+
 
 # Add average wait by ride field, for the rides that are open
 def add_average_wait_by_ride():
@@ -48,13 +59,18 @@ def add_average_wait_by_ride():
         avg_wait_time=('wait_time', 'mean')
         )
     # Convert avg_wait_time to int
-    avg_wait_by_ride['avg_wait_time'] = avg_wait_by_ride['avg_wait_time'].astype('int64')
+    avg_wait_by_ride['avg_wait_time'] = avg_wait_by_ride['avg_wait_time'] \
+        .astype('int64')
     # Merge with the original dataframe
-    avg_wait_by_ride = open_ride_records.merge(avg_wait_by_ride, on='ride_id', how='left')
+    avg_wait_by_ride = open_ride_records.merge(
+        avg_wait_by_ride, on='ride_id', how='left'
+    )
     # Remove duplicates
     avg_wait_by_ride = avg_wait_by_ride.drop_duplicates(subset=['ride_id'])
     # Drop unnecessary columns
-    avg_wait_by_ride = avg_wait_by_ride.drop(columns=['wait_time', 'is_open', 'latitude', 'longitude', 'date'])
+    avg_wait_by_ride = avg_wait_by_ride.drop(
+        columns=['wait_time', 'is_open', 'latitude', 'longitude', 'date']
+    )
     # Save to CSV
     avg_wait_by_ride.to_csv(AVERAGE_WAIT_FILE, index=False)
     print(f"Enriched dataframe saved to {AVERAGE_WAIT_FILE}")
@@ -93,8 +109,8 @@ def parks_count_by_continent():
         num_of_parks=('park_id', 'nunique')
     ).reset_index()
     # Save to CSV
-    parks_count.to_csv(BY_CONTINENT_FILE, index=False)
-    print(f"Parks count by continent dataframe saved to {BY_CONTINENT_FILE}")
+    parks_count.to_csv(BY_CONT_FILE, index=False)
+    print(f"Parks count by continent dataframe saved to {BY_CONT_FILE}")
 
 
 # Create separate dataframe with the longest ride wait times per continent
@@ -117,10 +133,12 @@ def max_wait_time_per_continent():
         'park_id',
         'is_open'
     ])
-    max_wait_time_per_continent = max_wait_time_per_continent.set_index('continent')
+    max_wait_time_per_continent = max_wait_time_per_continent.set_index(
+        'continent'
+    )
     # Save to CSV
-    max_wait_time_per_continent.to_csv(MAX_WAIT_FILE, index=True)
-    print(f"Max wait per continent dataframe saved to {MAX_WAIT_FILE}")
+    max_wait_time_per_continent.to_csv(MAX_WAIT, index=True)
+    print(f"Max wait per continent dataframe saved to {MAX_WAIT}")
 
 
 # Main function for enrichment
