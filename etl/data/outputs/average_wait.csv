@@ -58,7 +58,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 58,7775,SlingShot,Canada's Wonderland,Canada,North America,0
 58,5857,Soaring Timbers,Canada's Wonderland,Canada,North America,0
 58,9091,Speed City Raceway,Canada's Wonderland,Canada,North America,0
-58,11812,Tundra Twister,Canada's Wonderland,Canada,North America,0
+58,11812,Tundra Twister,Canada's Wonderland,Canada,North America,3
 58,7808,Wilde Knight Mares,Canada's Wonderland,Canada,North America,0
 58,5870,WindSeeker,Canada's Wonderland,Canada,North America,0
 58,7783,Barracuda Blaster,Canada's Wonderland,Canada,North America,0
@@ -139,9 +139,9 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 322,11969,Wasserschlacht,Familypark,Austria,Europe,0
 322,11945,Waterworks (Das Wasserwerk),Familypark,Austria,Europe,0
 322,11946,Ziegengaudi,Familypark,Austria,Europe,0
-291,7944,"Arthur, the 4D adventure",Futuroscope,France,Europe,8
-291,7945,Dances with Robots,Futuroscope,France,Europe,13
-291,7949,Destination Mars,Futuroscope,France,Europe,19
+291,7944,"Arthur, the 4D adventure",Futuroscope,France,Europe,7
+291,7945,Dances with Robots,Futuroscope,France,Europe,11
+291,7949,Destination Mars,Futuroscope,France,Europe,15
 291,11533,Tornado Chasers,Futuroscope,France,Europe,9
 291,14395,Cinépolis,Futuroscope,France,Europe,0
 9,8216,L'Aventure Astérix,Parc Astérix,France,Europe,0
@@ -162,7 +162,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 309,11555,Vikingløp,Rulantica,Germany,Europe,1
 309,7410,Vildfål,Rulantica,Germany,Europe,1
 309,7411,Vildstrøm,Rulantica,Germany,Europe,1
-309,7412,Vinter Rytt,Rulantica,Germany,Europe,6
+309,7412,Vinter Rytt,Rulantica,Germany,Europe,7
 55,12287,The Garden House (DMR),Dollywood,United States,North America,0
 55,12293,Hot Tub (HSL),Dollywood,United States,North America,0
 55,12292,Indoor Pool (HSL),Dollywood,United States,North America,0
@@ -216,9 +216,9 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 319,11369,Acqua!,Beto Carrero World,Brazil,South America,0
 319,11346,Aldeia Indígena,Beto Carrero World,Brazil,South America,0
 319,11329,Autopista (bate-bate),Beto Carrero World,Brazil,South America,1
-319,11330,Baby Elefante,Beto Carrero World,Brazil,South America,1
+319,11330,Baby Elefante,Beto Carrero World,Brazil,South America,3
 319,11341,Bar Pirata,Beto Carrero World,Brazil,South America,0
-319,11340,Barco Pirata,Beto Carrero World,Brazil,South America,0
+319,11340,Barco Pirata,Beto Carrero World,Brazil,South America,1
 319,13872,Betinho Carrero 2D,Beto Carrero World,Brazil,South America,1
 319,11334,Big Tower,Beto Carrero World,Brazil,South America,1
 319,11366,Carrossel Veneziano,Beto Carrero World,Brazil,South America,0
@@ -228,7 +228,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 319,13873,Esculturas Romero Britto,Beto Carrero World,Brazil,South America,0
 319,11345,Estação João Alves de Queiroz,Beto Carrero World,Brazil,South America,0
 319,11325,Excalibur ,Beto Carrero World,Brazil,South America,0
-319,11344,Ferrovia DinoMagic,Beto Carrero World,Brazil,South America,5
+319,11344,Ferrovia DinoMagic,Beto Carrero World,Brazil,South America,4
 319,11327,FireWhip,Beto Carrero World,Brazil,South America,1
 319,11440,Fort Álamo,Beto Carrero World,Brazil,South America,0
 319,11376,Fotos com a Turma do Madagascar ,Beto Carrero World,Brazil,South America,0
@@ -241,7 +241,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 319,11559,Hot Wheels Epic Show,Beto Carrero World,Brazil,South America,0
 319,11370,Hot Wheels Extreme Kids,Beto Carrero World,Brazil,South America,0
 319,11597,Madagascar Circus Show,Beto Carrero World,Brazil,South America,0
-319,11338,Madagascar Crazy River Adventure!,Beto Carrero World,Brazil,South America,7
+319,11338,Madagascar Crazy River Adventure!,Beto Carrero World,Brazil,South America,8
 319,11354,Memorial Beto Carrero,Beto Carrero World,Brazil,South America,0
 319,11368,Montanha-russa Dum Dum,Beto Carrero World,Brazil,South America,1
 319,12327,NERF Arcade!,Beto Carrero World,Brazil,South America,0
@@ -249,14 +249,14 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 319,11355,O Sonho do Cowboy!,Beto Carrero World,Brazil,South America,0
 319,11379,Ponte Pênsil,Beto Carrero World,Brazil,South America,0
 319,11337,Portal da Escuridão ,Beto Carrero World,Brazil,South America,0
-319,11367,Raskapuska,Beto Carrero World,Brazil,South America,1
-319,11444,Rebuliço,Beto Carrero World,Brazil,South America,2
-319,11328,Roda-Gigante,Beto Carrero World,Brazil,South America,1
-319,12325,SPIN BLAST,Beto Carrero World,Brazil,South America,1
+319,11367,Raskapuska,Beto Carrero World,Brazil,South America,2
+319,11444,Rebuliço,Beto Carrero World,Brazil,South America,3
+319,11328,Roda-Gigante,Beto Carrero World,Brazil,South America,4
+319,12325,SPIN BLAST,Beto Carrero World,Brazil,South America,3
 319,11335,Star Mountain,Beto Carrero World,Brazil,South America,1
 319,12326,SUPER SOAKER SPLASH,Beto Carrero World,Brazil,South America,1
 319,11336,Tchibum,Beto Carrero World,Brazil,South America,1
-319,11332,Tigor Mountain,Beto Carrero World,Brazil,South America,1
+319,11332,Tigor Mountain,Beto Carrero World,Brazil,South America,2
 319,11373,Xícaras Malucas,Beto Carrero World,Brazil,South America,2
 318,11286,Aktium,Cinecittà World,Italy,Europe,15
 318,11287,Altair,Cinecittà World,Italy,Europe,15
@@ -313,8 +313,8 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 317,11275,Frida Rc,Energylandia,Poland,Europe,0
 317,11242,Frutti Loop Rc,Energylandia,Poland,Europe,0
 317,11279,Grotto Expedition,Energylandia,Poland,Europe,0
-317,11979,Honey Harbor,Energylandia,Poland,Europe,9
-317,11270,Hyperion Rc,Energylandia,Poland,Europe,3
+317,11979,Honey Harbor,Energylandia,Poland,Europe,8
+317,11270,Hyperion Rc,Energylandia,Poland,Europe,4
 317,11247,Jeep Safari,Energylandia,Poland,Europe,0
 317,11265,Jungle Adventure,Energylandia,Poland,Europe,0
 317,11249,Latajace Hustawki,Energylandia,Poland,Europe,0
@@ -324,17 +324,17 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 317,11451,Main Train,Energylandia,Poland,Europe,0
 317,11450,Main Train 2,Energylandia,Poland,Europe,0
 317,11246,Mars Rc,Energylandia,Poland,Europe,0
-317,11256,Mayan Rc,Energylandia,Poland,Europe,3
+317,11256,Mayan Rc,Energylandia,Poland,Europe,2
 317,11255,Monster House,Energylandia,Poland,Europe,1
-317,11262,Moya Formula Rc,Energylandia,Poland,Europe,8
-317,11272,Moya Formuła Autodrom,Energylandia,Poland,Europe,1
+317,11262,Moya Formula Rc,Energylandia,Poland,Europe,7
+317,11272,Moya Formuła Autodrom,Energylandia,Poland,Europe,2
 317,14137,Obsessive House,Energylandia,Poland,Europe,0
 317,14135,Psychoteria,Energylandia,Poland,Europe,0
 317,11252,Pyramid Cinema 7 D,Energylandia,Poland,Europe,0
-317,11261,Rmf Dragon Rc,Energylandia,Poland,Europe,8
+317,11261,Rmf Dragon Rc,Energylandia,Poland,Europe,7
 317,11239,Samoloty,Energylandia,Poland,Europe,0
 317,14136,Scary Loft,Energylandia,Poland,Europe,10
-317,11243,śmiejżelki Energus Rc,Energylandia,Poland,Europe,3
+317,11243,śmiejżelki Energus Rc,Energylandia,Poland,Europe,2
 317,11238,Space Booster,Energylandia,Poland,Europe,0
 317,11253,Space Gun,Energylandia,Poland,Europe,0
 317,11266,Speed Rc,Energylandia,Poland,Europe,0
@@ -346,9 +346,9 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 317,11259,Viking Rc,Energylandia,Poland,Europe,0
 317,11264,Viking Ride,Energylandia,Poland,Europe,0
 317,11282,Wonder Wheel,Energylandia,Poland,Europe,0
-317,11283,Wonder Wheel 2,Energylandia,Poland,Europe,9
+317,11283,Wonder Wheel 2,Energylandia,Poland,Europe,8
 317,11241,Wrc Auto Zderzaki,Energylandia,Poland,Europe,0
-317,11276,Zadra Rc,Energylandia,Poland,Europe,4
+317,11276,Zadra Rc,Energylandia,Poland,Europe,5
 18,7392,Egerntårnet,Fårup Sommerland,Denmark,Europe,2
 18,2257,Fårup Rafting,Fårup Sommerland,Denmark,Europe,2
 18,7398,Færdselsskolen,Fårup Sommerland,Denmark,Europe,2
@@ -357,7 +357,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 18,7391,Pindsvinet,Fårup Sommerland,Denmark,Europe,2
 327,13586,Aerousel,Le Parc du Petit Prince,France,Europe,0
 327,13596,Draw me a Sheep,Le Parc du Petit Prince,France,Europe,0
-327,14634,Great Tethered Balloon,Le Parc du Petit Prince,France,Europe,10
+327,14634,Great Tethered Balloon,Le Parc du Petit Prince,France,Europe,11
 327,13597,Leapfrog,Le Parc du Petit Prince,France,Europe,0
 327,13593,Little Prince and Friends,Le Parc du Petit Prince,France,Europe,0
 327,13600,Make up,Le Parc du Petit Prince,France,Europe,0
@@ -382,7 +382,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 327,13594,Tyrolean Traverse,Le Parc du Petit Prince,France,Europe,0
 327,13590,Underwater Planet,Le Parc du Petit Prince,France,Europe,0
 305,9352,Arthur’s Tournament Training,Toverland,Netherlands,Europe,5
-305,9327,Fēnix,Toverland,Netherlands,Europe,5
+305,9327,Fēnix,Toverland,Netherlands,Europe,6
 305,12030,Jumping Juna,Toverland,Netherlands,Europe,5
 305,12031,Little Dragons,Toverland,Netherlands,Europe,5
 305,9328,Merlin's Quest,Toverland,Netherlands,Europe,5
@@ -397,9 +397,9 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 305,12035,Speelkasteel,Toverland,Netherlands,Europe,5
 305,12034,Tovertuin,Toverland,Netherlands,Europe,5
 305,9349,Villa Toverhoed,Toverland,Netherlands,Europe,5
-305,9334,Booster Bike,Toverland,Netherlands,Europe,9
+305,9334,Booster Bike,Toverland,Netherlands,Europe,10
 305,9331,Coco Bolo,Toverland,Netherlands,Europe,5
-305,9333,Djengu River,Toverland,Netherlands,Europe,7
+305,9333,Djengu River,Toverland,Netherlands,Europe,6
 305,9329,Dwervelwind,Toverland,Netherlands,Europe,5
 305,9354,Fort Boreas,Toverland,Netherlands,Europe,5
 305,9332,Tolly Molly,Toverland,Netherlands,Europe,5
@@ -409,41 +409,41 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 305,9340,Alpenrutsche,Toverland,Netherlands,Europe,5
 305,9355,Karussell,Toverland,Netherlands,Europe,5
 305,9356,Kletterabenteuer,Toverland,Netherlands,Europe,5
-305,9342,Maximus' Blitz Bahn,Toverland,Netherlands,Europe,12
+305,9342,Maximus' Blitz Bahn,Toverland,Netherlands,Europe,13
 305,9399,Maximus' Wunderball,Toverland,Netherlands,Europe,5
 305,9343,Villa Fiasko,Toverland,Netherlands,Europe,5
 305,9341,Wirbelbaum,Toverland,Netherlands,Europe,5
 324,12165,Dragon Slayer,Adventureland Resort,United States,North America,9
-324,12172,Draken Falls,Adventureland Resort,United States,North America,23
-324,12166,Flying Viking,Adventureland Resort,United States,North America,27
+324,12172,Draken Falls,Adventureland Resort,United States,North America,21
+324,12166,Flying Viking,Adventureland Resort,United States,North America,25
 324,12173,Monster,Adventureland Resort,United States,North America,5
 324,12167,Phoenix,Adventureland Resort,United States,North America,5
 324,12176,Saw Mill Splash,Adventureland Resort,United States,North America,5
 324,12168,Sidewinder,Adventureland Resort,United States,North America,5
 324,12169,Space Shot,Adventureland Resort,United States,North America,5
 324,12175,Storm Chaser,Adventureland Resort,United States,North America,5
-324,12170,The Underground,Adventureland Resort,United States,North America,23
-312,11037,Aero 360,Kennywood,United States,North America,5
-312,11027,Black Widow,Kennywood,United States,North America,8
-312,11029,Exterminator,Kennywood,United States,North America,9
+324,12170,The Underground,Adventureland Resort,United States,North America,21
+312,11037,Aero 360,Kennywood,United States,North America,6
+312,11027,Black Widow,Kennywood,United States,North America,12
+312,11029,Exterminator,Kennywood,United States,North America,15
 312,11036,Ghostwood Estate,Kennywood,United States,North America,5
-312,11032,Jack Rabbit,Kennywood,United States,North America,6
-312,11025,Kangaroo,Kennywood,United States,North America,5
-312,11035,Old Mill,Kennywood,United States,North America,6
-312,11031,Phantom's Revenge,Kennywood,United States,North America,8
-312,11030,Racer,Kennywood,United States,North America,7
-312,12113,Raging Rapids,Kennywood,United States,North America,6
-312,11024,Sky Rocket,Kennywood,United States,North America,7
-312,11891,Spinvasion,Kennywood,United States,North America,6
-312,11033,SwingShot,Kennywood,United States,North America,5
-312,11028,Thunderbolt,Kennywood,United States,North America,5
-312,11026,Turtle,Kennywood,United States,North America,6
-313,11043,Boulder Dash,Lake Compounce,United States,North America,10
-313,11040,Ghost Hunt,Lake Compounce,United States,North America,11
+312,11032,Jack Rabbit,Kennywood,United States,North America,9
+312,11025,Kangaroo,Kennywood,United States,North America,7
+312,11035,Old Mill,Kennywood,United States,North America,9
+312,11031,Phantom's Revenge,Kennywood,United States,North America,12
+312,11030,Racer,Kennywood,United States,North America,11
+312,12113,Raging Rapids,Kennywood,United States,North America,8
+312,11024,Sky Rocket,Kennywood,United States,North America,11
+312,11891,Spinvasion,Kennywood,United States,North America,8
+312,11033,SwingShot,Kennywood,United States,North America,6
+312,11028,Thunderbolt,Kennywood,United States,North America,7
+312,11026,Turtle,Kennywood,United States,North America,8
+313,11043,Boulder Dash,Lake Compounce,United States,North America,12
+313,11040,Ghost Hunt,Lake Compounce,United States,North America,13
 313,11038,Phobia Phear Coaster,Lake Compounce,United States,North America,5
-313,11080,Rev-O-Lution,Lake Compounce,United States,North America,5
-313,11046,Sawmill Plunge,Lake Compounce,United States,North America,20
-313,12996,Wildcat,Lake Compounce,United States,North America,12
+313,11080,Rev-O-Lution,Lake Compounce,United States,North America,7
+313,11046,Sawmill Plunge,Lake Compounce,United States,North America,21
+313,12996,Wildcat,Lake Compounce,United States,North America,16
 313,11044,Zoomerang,Lake Compounce,United States,North America,5
 321,11562,Abismo,Parque de Atracciones Madrid,Spain,Europe,0
 321,11561,Aserradero,Parque de Atracciones Madrid,Spain,Europe,0
@@ -461,23 +461,23 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 321,11585,Tornado,Parque de Atracciones Madrid,Spain,Europe,0
 321,11584,Vértigo,Parque de Atracciones Madrid,Spain,Europe,0
 277,6867,Champions Race,Ferrari Land,Spain,Europe,0
-277,6864,Crazy Pistons,Ferrari Land,Spain,Europe,3
+277,6864,Crazy Pistons,Ferrari Land,Spain,Europe,5
 277,12540,Ferrari Land Gallery,Ferrari Land,Spain,Europe,0
 277,13393,Flying Dreams,Ferrari Land,Spain,Europe,11
 277,6868,Flying Race,Ferrari Land,Spain,Europe,0
 277,6860,Junior Championship,Ferrari Land,Spain,Europe,0
 277,6865,Junior Red Force,Ferrari Land,Spain,Europe,0
 277,12164,Kid's Tower,Ferrari Land,Spain,Europe,6
-277,6857,Maranello Grand Race,Ferrari Land,Spain,Europe,17
-277,6858,Racing Legends,Ferrari Land,Spain,Europe,10
-277,6854,Red Force,Ferrari Land,Spain,Europe,10
+277,6857,Maranello Grand Race,Ferrari Land,Spain,Europe,18
+277,6858,Racing Legends,Ferrari Land,Spain,Europe,12
+277,6854,Red Force,Ferrari Land,Spain,Europe,5
 277,6856,Thrill Towers,Ferrari Land,Spain,Europe,11
 19,13746,El Árbol Mágico,PortAventura Park,Spain,Europe,0
 19,604,El Huerto Encantado,PortAventura Park,Spain,Europe,0
 19,13784,Laberinto Blacksmith,PortAventura Park,Spain,Europe,0
 19,596,Penitence Station,PortAventura Park,Spain,Europe,0
 19,13361,SésamoAventura Station,PortAventura Park,Spain,Europe,0
-24,1510,Congo River Rapids,Busch Gardens Tampa,United States,North America,3
+24,1510,Congo River Rapids,Busch Gardens Tampa,United States,North America,2
 24,6336,Cheetah Hunt,Busch Gardens Tampa,United States,North America,13
 24,6335,Cobra's Curse,Busch Gardens Tampa,United States,North America,20
 24,6334,Montu,Busch Gardens Tampa,United States,North America,6
@@ -499,37 +499,37 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 23,6338,InvadR,Busch Gardens Williamsburg,United States,North America,0
 23,12372,DarKoaster®,Busch Gardens Williamsburg,United States,North America,0
 23,6537,Loch Ness Monster: The Legend Lives On,Busch Gardens Williamsburg,United States,North America,0
-21,6573,Journey to Atlantis,Seaworld Orlando,United States,North America,8
-21,6570,Kraken®,Seaworld Orlando,United States,North America,4
+21,6573,Journey to Atlantis,Seaworld Orlando,United States,North America,7
+21,6570,Kraken®,Seaworld Orlando,United States,North America,3
 21,6571,Mako®,Seaworld Orlando,United States,North America,2
-21,10769,Ice Breaker,Seaworld Orlando,United States,North America,8
-21,11876,Pipeline: The Surf Coaster,Seaworld Orlando,United States,North America,7
+21,10769,Ice Breaker,Seaworld Orlando,United States,North America,7
+21,11876,Pipeline: The Surf Coaster,Seaworld Orlando,United States,North America,6
 21,6569,Manta,Seaworld Orlando,United States,North America,6
 21,6448,Elmo's Choo Choo Train,Seaworld Orlando,United States,North America,0
 21,6451,Slimey's Slider,Seaworld Orlando,United States,North America,0
 21,10421,Sunny Day Carousel,Seaworld Orlando,United States,North America,0
 21,6449,Super Grover's Box Car Derby,Seaworld Orlando,United States,North America,0
-21,6572,Infinity Falls®,Seaworld Orlando,United States,North America,7
+21,6572,Infinity Falls®,Seaworld Orlando,United States,North America,6
 22,2431,Great White,Seaworld San Antonio,United States,North America,0
-22,2440,Rio Loco,Seaworld San Antonio,United States,North America,15
+22,2440,Rio Loco,Seaworld San Antonio,United States,North America,16
 22,10128,Riptide Rescue,Seaworld San Antonio,United States,North America,0
 22,10141,Sea Swinger,Seaworld San Antonio,United States,North America,0
 22,2433,Steel Eel,Seaworld San Antonio,United States,North America,0
 22,9092,Texas Stingray,Seaworld San Antonio,United States,North America,0
 22,13507,Tidal Surge,Seaworld San Antonio,United States,North America,0
 22,9095,Wave Breaker,Seaworld San Antonio,United States,North America,0
-20,11977,Arctic Rescue,Seaworld San Diego,United States,North America,4
+20,11977,Arctic Rescue,Seaworld San Diego,United States,North America,3
 20,9101,Electric Eel,Seaworld San Diego,United States,North America,2
 20,10771,Emperor,Seaworld San Diego,United States,North America,1
-20,1434,Manta,Seaworld San Diego,United States,North America,4
+20,1434,Manta,Seaworld San Diego,United States,North America,3
 20,4736,Octarock,Seaworld San Diego,United States,North America,1
 20,11992,Rescue Rafter,Seaworld San Diego,United States,North America,5
 20,12042,Rescue Riders,Seaworld San Diego,United States,North America,4
-20,1428,Riptide Rescue,Seaworld San Diego,United States,North America,5
+20,1428,Riptide Rescue,Seaworld San Diego,United States,North America,7
 20,4735,Sea Dragon Drop,Seaworld San Diego,United States,North America,1
 20,1433,Shipwreck Rapids,Seaworld San Diego,United States,North America,2
-20,1432,SkyTower,Seaworld San Diego,United States,North America,7
-20,4737,Tentacle Twirl,Seaworld San Diego,United States,North America,5
+20,1432,SkyTower,Seaworld San Diego,United States,North America,10
+20,4737,Tentacle Twirl,Seaworld San Diego,United States,North America,7
 20,11990,Tidepool Twist,Seaworld San Diego,United States,North America,0
 29,13619,123 Playground,Sesame Place,United States,North America,0
 29,11149,Big Bird's Tour Bus,Sesame Place,United States,North America,0
@@ -1034,49 +1034,49 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 46,9811,Python Plunge,"Six Flags White Water, Atlanta",United States,North America,0
 46,3651,Tornado,"Six Flags White Water, Atlanta",United States,North America,0
 46,3654,Typhoon Twister,"Six Flags White Water, Atlanta",United States,North America,0
-334,14688,Constellation Carousel,Epic Universe,United States,North America,21
+334,14688,Constellation Carousel,Epic Universe,United States,North America,16
 334,14690,Stardust Racers,Epic Universe,United States,North America,60
 334,14698,Curse of the Werewolf Single Rider,Epic Universe,United States,North America,0
-334,14694,Monsters Unchained: The Frankenstein Experiment,Epic Universe,United States,North America,23
+334,14694,Monsters Unchained: The Frankenstein Experiment,Epic Universe,United States,North America,27
 334,14699,Monsters Unchained: The Frankenstein Experiment Single Rider,Epic Universe,United States,North America,0
-334,14693,Dragon Racer's Rally,Epic Universe,United States,North America,35
-334,14691,Fyre Drill,Epic Universe,United States,North America,30
-334,14695,Hiccup Wing Glider,Epic Universe,United States,North America,17
+334,14693,Dragon Racer's Rally,Epic Universe,United States,North America,25
+334,14691,Fyre Drill,Epic Universe,United States,North America,21
+334,14695,Hiccup Wing Glider,Epic Universe,United States,North America,16
 334,14685,Meet Toothless & Hiccup,Epic Universe,United States,North America,56
-334,14682,Bowser Jr. Challenge,Epic Universe,United States,North America,15
+334,14682,Bowser Jr. Challenge,Epic Universe,United States,North America,12
 334,14684,Mario Kart™: Bowser's Challenge Single Rider,Epic Universe,United States,North America,0
-334,14686,Mine-Cart Madness™,Epic Universe,United States,North America,58
+334,14686,Mine-Cart Madness™,Epic Universe,United States,North America,47
 334,14697,Mine-Cart Madness™ Single Rider,Epic Universe,United States,North America,0
-334,14689,Yoshi's Adventure™,Epic Universe,United States,North America,21
+334,14689,Yoshi's Adventure™,Epic Universe,United States,North America,16
 334,14696,Harry Potter and the Battle at the Ministry™ Single Rider,Epic Universe,United States,North America,0
-64,8721,Jurassic World VelociCoaster,Islands Of Adventure At Universal Orlando,United States,North America,51
+64,8721,Jurassic World VelociCoaster,Islands Of Adventure At Universal Orlando,United States,North America,40
 64,13109,Jurassic World VelociCoaster Single Rider,Islands Of Adventure At Universal Orlando,United States,North America,0
 64,6017,Skull Island: Reign of Kong™,Islands Of Adventure At Universal Orlando,United States,North America,18
-64,5988,Doctor Doom's Fearfall®,Islands Of Adventure At Universal Orlando,United States,North America,18
+64,5988,Doctor Doom's Fearfall®,Islands Of Adventure At Universal Orlando,United States,North America,15
 64,6003,Storm Force Accelatron®,Islands Of Adventure At Universal Orlando,United States,North America,5
 64,5985,The Amazing Adventures of Spider-Man®,Islands Of Adventure At Universal Orlando,United States,North America,22
 64,5986,Caro-Seuss-el™,Islands Of Adventure At Universal Orlando,United States,North America,5
 64,5997,"One Fish, Two Fish, Red Fish, Blue Fish™",Islands Of Adventure At Universal Orlando,United States,North America,5
 64,5987,The Cat in The Hat™,Islands Of Adventure At Universal Orlando,United States,North America,5
-64,5991,Flight of the Hippogriff™,Islands Of Adventure At Universal Orlando,United States,North America,18
-64,6682,Hagrid's Magical Creatures Motorbike Adventure™,Islands Of Adventure At Universal Orlando,United States,North America,60
-64,5992,Harry Potter and the Forbidden Journey™,Islands Of Adventure At Universal Orlando,United States,North America,20
+64,5991,Flight of the Hippogriff™,Islands Of Adventure At Universal Orlando,United States,North America,13
+64,6682,Hagrid's Magical Creatures Motorbike Adventure™,Islands Of Adventure At Universal Orlando,United States,North America,73
+64,5992,Harry Potter and the Forbidden Journey™,Islands Of Adventure At Universal Orlando,United States,North America,16
 64,13113,Harry Potter and the Forbidden Journey™ Single Rider,Islands Of Adventure At Universal Orlando,United States,North America,0
-64,6015,Hogwarts™ Express - Hogsmeade™ Station,Islands Of Adventure At Universal Orlando,United States,North America,32
+64,6015,Hogwarts™ Express - Hogsmeade™ Station,Islands Of Adventure At Universal Orlando,United States,North America,25
 64,13098,Ollivanders™ Experience in Hogsmeade™,Islands Of Adventure At Universal Orlando,United States,North America,5
-64,5989,Dudley Do-Right's Ripsaw Falls®,Islands Of Adventure At Universal Orlando,United States,North America,31
+64,5989,Dudley Do-Right's Ripsaw Falls®,Islands Of Adventure At Universal Orlando,United States,North America,22
 64,5998,Popeye & Bluto's Bilge-Rat Barges®,Islands Of Adventure At Universal Orlando,United States,North America,10
 65,5990,E.T. Adventure™,Universal Studios At Universal Orlando,United States,North America,15
-65,5984,Despicable Me Minion Mayhem™,Universal Studios At Universal Orlando,United States,North America,16
+65,5984,Despicable Me Minion Mayhem™,Universal Studios At Universal Orlando,United States,North America,14
 65,12107,Illumination's Villain-Con Minion Blast,Universal Studios At Universal Orlando,United States,North America,5
 65,6018,Race Through New York Starring Jimmy Fallon™,Universal Studios At Universal Orlando,United States,North America,8
-65,6000,Revenge of the Mummy™,Universal Studios At Universal Orlando,United States,North America,20
+65,6000,Revenge of the Mummy™,Universal Studios At Universal Orlando,United States,North America,16
 65,13110,Revenge of the Mummy™ Single Rider,Universal Studios At Universal Orlando,United States,North America,0
 65,13111,Hollywood Rip Ride Rockit™ Single Rider,Universal Studios At Universal Orlando,United States,North America,0
 65,6006,TRANSFORMERS™: The Ride-3D,Universal Studios At Universal Orlando,United States,North America,11
 65,6038,Fast & Furious - Supercharged™,Universal Studios At Universal Orlando,United States,North America,13
-65,6014,Harry Potter and the Escape from Gringotts™,Universal Studios At Universal Orlando,United States,North America,38
-65,6016,Hogwarts™ Express - King's Cross Station,Universal Studios At Universal Orlando,United States,North America,42
+65,6014,Harry Potter and the Escape from Gringotts™,Universal Studios At Universal Orlando,United States,North America,30
+65,6016,Hogwarts™ Express - King's Cross Station,Universal Studios At Universal Orlando,United States,North America,31
 65,13100,Ollivanders™ Experience in Diagon Alley™,Universal Studios At Universal Orlando,United States,North America,9
 65,5995,Kang & Kodos' Twirl 'n' Hurl,Universal Studios At Universal Orlando,United States,North America,10
 65,5996,MEN IN BLACK™ Alien Attack!™,Universal Studios At Universal Orlando,United States,North America,10
@@ -1101,26 +1101,26 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 284,7061,Big Bird's Big Top Circus,Universal Studios Japan,Japan,Asia,10
 284,14525,Doraemon 4-D Art Adventure: Nobita's Art World Tales,Universal Studios Japan,Japan,Asia,20
 284,7071,Elmo's Little Drive,Universal Studios Japan,Japan,Asia,6
-284,7065,Hello Kitty's Cupcake Dream,Universal Studios Japan,Japan,Asia,7
-284,7075,Moppy's Balloon Trip,Universal Studios Japan,Japan,Asia,20
+284,7065,Hello Kitty's Cupcake Dream,Universal Studios Japan,Japan,Asia,6
+284,7075,Moppy's Balloon Trip,Universal Studios Japan,Japan,Asia,18
 8,657,Festival of the Lion King,Animal Kingdom,United States,North America,0
 8,651,Gorilla Falls Exploration Trail,Animal Kingdom,United States,North America,0
-8,113,Kilimanjaro Safaris,Animal Kingdom,United States,North America,10
+8,113,Kilimanjaro Safaris,Animal Kingdom,United States,North America,24
 8,655,Wildlife Express Train,Animal Kingdom,United States,North America,0
-8,110,Expedition Everest - Legend of the Forbidden Mountain,Animal Kingdom,United States,North America,32
+8,110,Expedition Everest - Legend of the Forbidden Mountain,Animal Kingdom,United States,North America,28
 8,14533,Expedition Everest - Legend of the Forbidden Mountain Single Rider,Animal Kingdom,United States,North America,0
 8,10921,Feathered Friends in Flight!,Animal Kingdom,United States,North America,0
-8,112,Kali River Rapids,Animal Kingdom,United States,North America,14
+8,112,Kali River Rapids,Animal Kingdom,United States,North America,12
 8,13809,Dino-Sue,Animal Kingdom,United States,North America,0
-8,111,DINOSAUR,Animal Kingdom,United States,North America,12
+8,111,DINOSAUR,Animal Kingdom,United States,North America,10
 8,10920,Finding Nemo: The Big Blue... and Beyond!,Animal Kingdom,United States,North America,0
 8,652,The Boneyard,Animal Kingdom,United States,North America,0
 8,13811,Discovery Island Trails,Animal Kingdom,United States,North America,0
-8,116,Meet Favorite Disney Pals at Adventurers Outpost,Animal Kingdom,United States,North America,21
+8,116,Meet Favorite Disney Pals at Adventurers Outpost,Animal Kingdom,United States,North America,20
 8,12451,Meet Moana at Character Landing,Animal Kingdom,United States,North America,0
 8,13751,Tree of Life,Animal Kingdom,United States,North America,0
-8,4439,Avatar Flight of Passage,Animal Kingdom,United States,North America,61
-8,4438,Na'vi River Journey,Animal Kingdom,United States,North America,46
+8,4439,Avatar Flight of Passage,Animal Kingdom,United States,North America,60
+8,4438,Na'vi River Journey,Animal Kingdom,United States,North America,50
 8,13807,Affection Section,Animal Kingdom,United States,North America,0
 8,13806,Conservation Station,Animal Kingdom,United States,North America,0
 8,6680,The Animation Experience at Conservation Station,Animal Kingdom,United States,North America,0
@@ -1161,64 +1161,64 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 7,2478,Star Wars Launch Bay,Disney Hollywood Studios,United States,North America,0
 7,2577,Star Wars Launch Bay: Meet Chewbacca,Disney Hollywood Studios,United States,North America,16
 7,5145,Walt Disney Presents,Disney Hollywood Studios,United States,North America,0
-7,6704,Meet Disney Stars at Red Carpet Dreams,Disney Hollywood Studios,United States,North America,48
+7,6704,Meet Disney Stars at Red Carpet Dreams,Disney Hollywood Studios,United States,North America,42
 7,1174,For the First Time in Forever: A Frozen Sing-Along Celebration,Disney Hollywood Studios,United States,North America,0
 7,6702,Indiana Jones™ Epic Stunt Spectacular!,Disney Hollywood Studios,United States,North America,0
 7,6703,Meet Olaf at Celebrity Spotlight,Disney Hollywood Studios,United States,North America,7
 7,120,Star Tours – The Adventures Continue,Disney Hollywood Studios,United States,North America,6
 7,7333,Vacation Fun - An Original Animated Short with Mickey & Minnie,Disney Hollywood Studios,United States,North America,10
-7,6361,Mickey & Minnie's Runaway Railway,Disney Hollywood Studios,United States,North America,47
+7,6361,Mickey & Minnie's Runaway Railway,Disney Hollywood Studios,United States,North America,41
 7,118,Muppet*Vision 3D,Disney Hollywood Studios,United States,North America,10
-7,12425,Meet Edna Mode at the Edna Mode Experience,Disney Hollywood Studios,United States,North America,15
-7,117,Toy Story Mania!,Disney Hollywood Studios,United States,North America,41
-7,6368,Millennium Falcon: Smugglers Run,Disney Hollywood Studios,United States,North America,69
+7,12425,Meet Edna Mode at the Edna Mode Experience,Disney Hollywood Studios,United States,North America,12
+7,117,Toy Story Mania!,Disney Hollywood Studios,United States,North America,31
+7,6368,Millennium Falcon: Smugglers Run,Disney Hollywood Studios,United States,North America,49
 7,10902,Millennium Falcon: Smugglers Run Single Rider,Disney Hollywood Studios,United States,North America,0
-7,6369,Star Wars: Rise of the Resistance,Disney Hollywood Studios,United States,North America,56
+7,6369,Star Wars: Rise of the Resistance,Disney Hollywood Studios,United States,North America,54
 7,14531,Star Wars: Rise of the Resistance Single Rider,Disney Hollywood Studios,United States,North America,0
 7,1176,Beauty and the Beast – Live on Stage,Disney Hollywood Studios,United States,North America,0
-7,119,Rock 'n' Roller Coaster Starring Aerosmith,Disney Hollywood Studios,United States,North America,64
+7,119,Rock 'n' Roller Coaster Starring Aerosmith,Disney Hollywood Studios,United States,North America,49
 7,10901,Rock 'n' Roller Coaster Starring Aerosmith Single Rider,Disney Hollywood Studios,United States,North America,0
-7,123,The Twilight Zone Tower of Terror™,Disney Hollywood Studios,United States,North America,35
-7,5477,Alien Swirling Saucers,Disney Hollywood Studios,United States,North America,37
-7,5476,Slinky Dog Dash,Disney Hollywood Studios,United States,North America,52
+7,123,The Twilight Zone Tower of Terror™,Disney Hollywood Studios,United States,North America,30
+7,5477,Alien Swirling Saucers,Disney Hollywood Studios,United States,North America,28
+7,5476,Slinky Dog Dash,Disney Hollywood Studios,United States,North America,50
 6,1184,A Pirate's Adventure ~ Treasures of the Seven Seas,Disney Magic Kingdom,United States,North America,0
-6,134,Jungle Cruise,Disney Magic Kingdom,United States,North America,45
-6,137,Pirates of the Caribbean,Disney Magic Kingdom,United States,North America,23
+6,134,Jungle Cruise,Disney Magic Kingdom,United States,North America,38
+6,137,Pirates of the Caribbean,Disney Magic Kingdom,United States,North America,20
 6,355,Swiss Family Treehouse,Disney Magic Kingdom,United States,North America,0
-6,141,The Magic Carpets of Aladdin,Disney Magic Kingdom,United States,North America,11
+6,141,The Magic Carpets of Aladdin,Disney Magic Kingdom,United States,North America,10
 6,334,Walt Disney's Enchanted Tiki Room,Disney Magic Kingdom,United States,North America,8
-6,133,"""it's a small world""",Disney Magic Kingdom,United States,North America,18
+6,133,"""it's a small world""",Disney Magic Kingdom,United States,North America,13
 6,13764,Casey Jr. Splash 'N' Soak Station,Disney Magic Kingdom,United States,North America,0
 6,13763,Cinderella Castle,Disney Magic Kingdom,United States,North America,0
-6,132,Dumbo the Flying Elephant,Disney Magic Kingdom,United States,North America,18
+6,132,Dumbo the Flying Elephant,Disney Magic Kingdom,United States,North America,13
 6,128,Enchanted Tales with Belle,Disney Magic Kingdom,United States,North America,21
-6,135,Mad Tea Party,Disney Magic Kingdom,United States,North America,14
+6,135,Mad Tea Party,Disney Magic Kingdom,United States,North America,11
 6,147,Meet Ariel at Her Grotto,Disney Magic Kingdom,United States,North America,30
-6,6700,Meet Cinderella and a Visiting Princess at Princess Fairytale Hall,Disney Magic Kingdom,United States,North America,41
+6,6700,Meet Cinderella and a Visiting Princess at Princess Fairytale Hall,Disney Magic Kingdom,United States,North America,39
 6,144,Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow,Disney Magic Kingdom,United States,North America,23
 6,145,Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow,Disney Magic Kingdom,United States,North America,31
-6,6699,Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall,Disney Magic Kingdom,United States,North America,25
+6,6699,Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall,Disney Magic Kingdom,United States,North America,22
 6,171,Mickey's PhilharMagic,Disney Magic Kingdom,United States,North America,15
-6,136,Peter Pan's Flight,Disney Magic Kingdom,United States,North America,43
-6,161,Prince Charming Regal Carrousel,Disney Magic Kingdom,United States,North America,8
-6,129,Seven Dwarfs Mine Train,Disney Magic Kingdom,United States,North America,70
-6,126,The Barnstormer,Disney Magic Kingdom,United States,North America,25
-6,142,The Many Adventures of Winnie the Pooh,Disney Magic Kingdom,United States,North America,35
-6,127,Under the Sea - Journey of The Little Mermaid,Disney Magic Kingdom,United States,North America,34
-6,1181,Walt Disney World Railroad - Fantasyland,Disney Magic Kingdom,United States,North America,16
-6,1214,Country Bear Musical Jamboree,Disney Magic Kingdom,United States,North America,10
-6,13630,Tiana's Bayou Adventure,Disney Magic Kingdom,United States,North America,40
+6,136,Peter Pan's Flight,Disney Magic Kingdom,United States,North America,40
+6,161,Prince Charming Regal Carrousel,Disney Magic Kingdom,United States,North America,7
+6,129,Seven Dwarfs Mine Train,Disney Magic Kingdom,United States,North America,66
+6,126,The Barnstormer,Disney Magic Kingdom,United States,North America,18
+6,142,The Many Adventures of Winnie the Pooh,Disney Magic Kingdom,United States,North America,31
+6,127,Under the Sea - Journey of The Little Mermaid,Disney Magic Kingdom,United States,North America,25
+6,1181,Walt Disney World Railroad - Fantasyland,Disney Magic Kingdom,United States,North America,14
+6,1214,Country Bear Musical Jamboree,Disney Magic Kingdom,United States,North America,8
+6,13630,Tiana's Bayou Adventure,Disney Magic Kingdom,United States,North America,34
 6,465,Tom Sawyer Island,Disney Magic Kingdom,United States,North America,5
-6,1179,Walt Disney World Railroad - Frontierland,Disney Magic Kingdom,United States,North America,16
-6,140,Haunted Mansion,Disney Magic Kingdom,United States,North America,39
-6,146,Mickey Mouse and Minnie Mouse at Town Square Theater,Disney Magic Kingdom,United States,North America,28
-6,1189,"Walt Disney World Railroad - Main Street, U.S.A.",Disney Magic Kingdom,United States,North America,16
-6,131,Buzz Lightyear's Space Ranger Spin,Disney Magic Kingdom,United States,North America,30
+6,1179,Walt Disney World Railroad - Frontierland,Disney Magic Kingdom,United States,North America,14
+6,140,Haunted Mansion,Disney Magic Kingdom,United States,North America,35
+6,146,Mickey Mouse and Minnie Mouse at Town Square Theater,Disney Magic Kingdom,United States,North America,25
+6,1189,"Walt Disney World Railroad - Main Street, U.S.A.",Disney Magic Kingdom,United States,North America,14
+6,131,Buzz Lightyear's Space Ranger Spin,Disney Magic Kingdom,United States,North America,23
 6,125,Monsters Inc. Laugh Floor,Disney Magic Kingdom,United States,North America,11
-6,138,Space Mountain,Disney Magic Kingdom,United States,North America,45
-6,143,Tomorrowland Speedway,Disney Magic Kingdom,United States,North America,16
-6,1190,Tomorrowland Transit Authority PeopleMover,Disney Magic Kingdom,United States,North America,10
-6,11527,TRON Lightcycle / Run,Disney Magic Kingdom,United States,North America,77
+6,138,Space Mountain,Disney Magic Kingdom,United States,North America,35
+6,143,Tomorrowland Speedway,Disney Magic Kingdom,United States,North America,12
+6,1190,Tomorrowland Transit Authority PeopleMover,Disney Magic Kingdom,United States,North America,8
+6,11527,TRON Lightcycle / Run,Disney Magic Kingdom,United States,North America,75
 6,457,Walt Disney's Carousel of Progress,Disney Magic Kingdom,United States,North America,5
 16,12428,Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson,Disneyland,United States,North America,0
 16,326,Indiana Jones™ Adventure,Disneyland,United States,North America,54
@@ -1269,26 +1269,26 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 31,13760,Mystic Point Freight Depot,Disneyland Hong Kong,Hong Kong,Asia,0
 31,13759,Wild West Photo Fun,Disneyland Hong Kong,Hong Kong,Asia,0
 4,2702,Adventure Isle,Disneyland Park Paris,France,Europe,0
-4,7306,Indiana Jones and the Temple of Peril Single Rider,Disneyland Park Paris,France,Europe,2
-4,2,Indiana Jones™ and the Temple of Peril,Disneyland Park Paris,France,Europe,11
+4,7306,Indiana Jones and the Temple of Peril Single Rider,Disneyland Park Paris,France,Europe,4
+4,2,Indiana Jones™ and the Temple of Peril,Disneyland Park Paris,France,Europe,15
 4,1,La Cabane des Robinson,Disneyland Park Paris,France,Europe,6
 4,2703,Le Passage Enchanté d'Aladdin,Disneyland Park Paris,France,Europe,0
-4,3,Pirates of the Caribbean,Disneyland Park Paris,France,Europe,12
-4,4,"Autopia, presented by Avis",Disneyland Park Paris,France,Europe,21
-4,5,Buzz Lightyear Laser Blast,Disneyland Park Paris,France,Europe,22
+4,3,Pirates of the Caribbean,Disneyland Park Paris,France,Europe,15
+4,4,"Autopia, presented by Avis",Disneyland Park Paris,France,Europe,22
+4,5,Buzz Lightyear Laser Blast,Disneyland Park Paris,France,Europe,24
 4,6,Les Mystères du Nautilus,Disneyland Park Paris,France,Europe,5
-4,9,Star Tours: The Adventures Continue*,Disneyland Park Paris,France,Europe,5
+4,9,Star Tours: The Adventures Continue*,Disneyland Park Paris,France,Europe,8
 4,8,Star Wars Hyperspace Mountain,Disneyland Park Paris,France,Europe,16
 4,7278,Star Wars Hyperspace Mountain Single Rider,Disneyland Park Paris,France,Europe,0
-4,19,"""it's a small world""",Disneyland Park Paris,France,Europe,9
+4,19,"""it's a small world""",Disneyland Park Paris,France,Europe,8
 4,15,Blanche-Neige et les Sept Nains®,Disneyland Park Paris,France,Europe,18
 4,17,Casey Jr. – le Petit Train du Cirque,Disneyland Park Paris,France,Europe,10
-4,18,Dumbo the Flying Elephant,Disneyland Park Paris,France,Europe,33
-4,16,Le Carrousel de Lancelot ,Disneyland Park Paris,France,Europe,13
+4,18,Dumbo the Flying Elephant,Disneyland Park Paris,France,Europe,34
+4,16,Le Carrousel de Lancelot ,Disneyland Park Paris,France,Europe,14
 4,21,"Le Pays des Contes de Fées, presented by Vittel",Disneyland Park Paris,France,Europe,10
 4,23,Les Voyages de Pinocchio,Disneyland Park Paris,France,Europe,16
 4,20,Mad Hatter's Tea Cups,Disneyland Park Paris,France,Europe,8
-4,22,Peter Pan's Flight,Disneyland Park Paris,France,Europe,44
+4,22,Peter Pan's Flight,Disneyland Park Paris,France,Europe,45
 4,26,Phantom Manor,Disneyland Park Paris,France,Europe,6
 4,2712,Rustler Roundup Shootin' Gallery,Disneyland Park Paris,France,Europe,0
 5,13773,American Heritage Gallery,Epcot,United States,North America,0
@@ -1297,46 +1297,46 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 5,13777,"ImageWorks - The ""What If"" Labs",Epcot,United States,North America,0
 5,13781,Bijutsu-kan Gallery,Epcot,United States,North America,0
 5,2495,Disney and Pixar Short Film Festival,Epcot,United States,North America,0
-5,155,Journey Into Imagination With Figment,Epcot,United States,North America,13
-5,13627,Meet Beloved Disney Pals at Mickey & Friends,Epcot,United States,North America,15
+5,155,Journey Into Imagination With Figment,Epcot,United States,North America,10
+5,13627,Meet Beloved Disney Pals at Mickey & Friends,Epcot,United States,North America,11
 5,13775,Project Tomorrow: Inventing the Wonders of the Future,Epcot,United States,North America,0
 5,159,Spaceship Earth,Epcot,United States,North America,10
 5,13774,Advanced Training Lab,Epcot,United States,North America,0
-5,10916,Guardians of the Galaxy: Cosmic Rewind,Epcot,United States,North America,63
+5,10916,Guardians of the Galaxy: Cosmic Rewind,Epcot,United States,North America,82
 5,158,Mission: SPACE,Epcot,United States,North America,15
 5,7323,Awesome Planet,Epcot,United States,North America,0
 5,13770,Bruce's Shark World,Epcot,United States,North America,0
 5,12387,"Journey of Water, Inspired by Moana",Epcot,United States,North America,0
-5,156,Living with the Land,Epcot,United States,North America,16
+5,156,Living with the Land,Epcot,United States,North America,12
 5,13782,SeaBase Aquarium,Epcot,United States,North America,0
-5,151,Soarin' Around the World,Epcot,United States,North America,13
+5,151,Soarin' Around the World,Epcot,United States,North America,12
 5,153,The Seas with Nemo & Friends,Epcot,United States,North America,6
 5,152,Turtle Talk With Crush,Epcot,United States,North America,15
 5,829,Canada Far and Wide in Circle-Vision 360,Epcot,United States,North America,0
-5,2679,Frozen Ever After,Epcot,United States,North America,51
+5,2679,Frozen Ever After,Epcot,United States,North America,48
 5,13772,Gallery of Arts and History,Epcot,United States,North America,0
 5,466,Gran Fiesta Tour Starring The Three Caballeros,Epcot,United States,North America,6
 5,13767,House of the Whispering Willows,Epcot,United States,North America,0
 5,6701,Meet Anna and Elsa at Royal Sommerhus,Epcot,United States,North America,35
 5,13780,Mexico Folk Art Gallery,Epcot,United States,North America,0
-5,10914,Remy's Ratatouille Adventure,Epcot,United States,North America,55
+5,10914,Remy's Ratatouille Adventure,Epcot,United States,North America,50
 5,10915,Remy's Ratatouille Adventure Single Rider,Epcot,United States,North America,0
 5,13776,Stave Church Gallery,Epcot,United States,North America,0
 30,3895,Selfie Spot with Spider Man,Shanghai Disney Resort,China,Asia,5
-28,10848,Avengers Assemble: Flight Force,Walt Disney Studios Paris,France,Europe,5
+28,10848,Avengers Assemble: Flight Force,Walt Disney Studios Paris,France,Europe,6
 28,10849,Avengers Assemble: Flight Force Single Rider,Walt Disney Studios Paris,France,Europe,5
-28,10845,Spider-Man W.E.B. Adventure,Walt Disney Studios Paris,France,Europe,32
+28,10845,Spider-Man W.E.B. Adventure,Walt Disney Studios Paris,France,Europe,30
 28,10846,Spider-Man W.E.B. Adventure Single Rider,Walt Disney Studios Paris,France,Europe,7
-28,40,The Twilight Zone Tower of Terror,Walt Disney Studios Paris,France,Europe,30
+28,40,The Twilight Zone Tower of Terror,Walt Disney Studios Paris,France,Europe,28
 28,31,Cars Quatre Roues Rallye,Walt Disney Studios Paris,France,Europe,11
-28,32,Crush's Coaster,Walt Disney Studios Paris,France,Europe,50
-28,7277,Crush's Coaster Single Rider,Walt Disney Studios Paris,France,Europe,36
-28,33,Les Tapis Volants - Flying Carpets Over Agrabah®,Walt Disney Studios Paris,France,Europe,17
-28,37,Ratatouille : L’Aventure Totalement Toquée de Rémy​,Walt Disney Studios Paris,France,Europe,22
+28,32,Crush's Coaster,Walt Disney Studios Paris,France,Europe,53
+28,7277,Crush's Coaster Single Rider,Walt Disney Studios Paris,France,Europe,40
+28,33,Les Tapis Volants - Flying Carpets Over Agrabah®,Walt Disney Studios Paris,France,Europe,16
+28,37,Ratatouille : L’Aventure Totalement Toquée de Rémy​,Walt Disney Studios Paris,France,Europe,25
 28,7279,Ratatouille: The Adventure Single Rider,Walt Disney Studios Paris,France,Europe,6
-28,34,RC Racer,Walt Disney Studios Paris,France,Europe,24
-28,7280,RC Racer Single Rider,Walt Disney Studios Paris,France,Europe,16
-28,36,Slinky® Dog Zigzag Spin,Walt Disney Studios Paris,France,Europe,14
+28,34,RC Racer,Walt Disney Studios Paris,France,Europe,25
+28,7280,RC Racer Single Rider,Walt Disney Studios Paris,France,Europe,17
+28,36,Slinky® Dog Zigzag Spin,Walt Disney Studios Paris,France,Europe,12
 28,35,Toy Soldiers Parachute Drop,Walt Disney Studios Paris,France,Europe,36
 28,7281,Toy Soldiers Parachute Drop Single Rider,Walt Disney Studios Paris,France,Europe,12
 55,12290,Hot Tub (DMR),Dollywood,United States,North America,0
@@ -1346,20 +1346,20 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 61,8916,Butterfield Stagecoach,Knott's Berry Farm,United States,North America,0
 61,5913,Calico Mine Ride,Knott's Berry Farm,United States,North America,7
 61,5926,Timber Mountain Log Ride,Knott's Berry Farm,United States,North America,52
-64,5994,Jurassic Park River Adventure™,Islands Of Adventure At Universal Orlando,United States,North America,7
-64,6001,The High in the Sky Seuss Trolley Train Ride!™,Islands Of Adventure At Universal Orlando,United States,North America,13
+64,5994,Jurassic Park River Adventure™,Islands Of Adventure At Universal Orlando,United States,North America,6
+64,6001,The High in the Sky Seuss Trolley Train Ride!™,Islands Of Adventure At Universal Orlando,United States,North America,10
 65,5993,Hollywood Rip Ride Rockit™,Universal Studios At Universal Orlando,United States,North America,17
 16,14168,Tiana's Bayou Adventure,Disneyland,United States,North America,55
 16,14326,Tiana's Bayou Adventure Single Rider,Disneyland,United States,North America,0
 16,275,Dumbo the Flying Elephant,Disneyland,United States,North America,18
 16,323,Big Thunder Mountain Railroad,Disneyland,United States,North America,38
-64,5999,Pteranodon Flyers™,Islands Of Adventure At Universal Orlando,United States,North America,31
+64,5999,Pteranodon Flyers™,Islands Of Adventure At Universal Orlando,United States,North America,20
 291,11552,The Key to Dreams,Futuroscope,France,Europe,0
 279,6913,LEGO® NINJAGO® The Ride,Legoland California,United States,North America,5
 125,14174,Bao Haus,Everland,South Korea,Asia,0
 21,5958,Flamingo Paddle Boats,Seaworld Orlando,United States,North America,0
-334,14683,Mario Kart™: Bowser's Challenge,Epic Universe,United States,North America,90
-64,6004,The Incredible Hulk Coaster®,Islands Of Adventure At Universal Orlando,United States,North America,45
+334,14683,Mario Kart™: Bowser's Challenge,Epic Universe,United States,North America,57
+64,6004,The Incredible Hulk Coaster®,Islands Of Adventure At Universal Orlando,United States,North America,27
 65,13605,Trolls Trollercoaster,Universal Studios At Universal Orlando,United States,North America,20
 17,11528,World of Color – ONE,Disney California Adventure,United States,North America,0
 123,14306,丛林过山车,Chimelong Ocean Kingdom,China,Asia,5
@@ -1433,9 +1433,9 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 139,14255,急驰竞赛,Chimelong Water Park,China,Asia,5
 139,14252,摇滚巨轮滑道,Chimelong Water Park,China,Asia,5
 139,14253,眼镜蛇滑道,Chimelong Water Park,China,Asia,5
-139,14631,磁力炮水上过山车,Chimelong Water Park,China,Asia,5
+139,14631,磁力炮水上过山车,Chimelong Water Park,China,Asia,6
 139,14257,离心滑道,Chimelong Water Park,China,Asia,5
-139,14630,风暴双响炮,Chimelong Water Park,China,Asia,6
+139,14630,风暴双响炮,Chimelong Water Park,China,Asia,8
 333,14425,4D Shooting Theater,Lotte World,South Korea,Asia,30
 333,14455,5G Atlantis,Lotte World,South Korea,Asia,81
 333,14435,Atlantis,Lotte World,South Korea,Asia,90
@@ -1475,8 +1475,8 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 305,9347,Theekopjes,Toverland,Netherlands,Europe,5
 305,9345,Toos-Express,Toverland,Netherlands,Europe,5
 305,9346,Truukjes,Toverland,Netherlands,Europe,5
-305,9339,Expedition Zork,Toverland,Netherlands,Europe,6
-305,9357,Kletterparcours,Toverland,Netherlands,Europe,5
+305,9339,Expedition Zork,Toverland,Netherlands,Europe,8
+305,9357,Kletterparcours,Toverland,Netherlands,Europe,6
 125,14179,Adventure Carnival,Everland,South Korea,Asia,0
 125,14199,Alpine Carnival,Everland,South Korea,Asia,0
 125,14203,Amazon Express,Everland,South Korea,Asia,50
@@ -1543,22 +1543,22 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 328,13919,Transformers: Battle for the AllSpark,Universal Studios Beijing,China,Asia,25
 284,12066,Despicable Me Minion Mayhem,Universal Studios Japan,Japan,Asia,41
 284,13005,Detective Conan: The World,Universal Studios Japan,Japan,Asia,37
-284,7098,Elmo's Bubble Bubble,Universal Studios Japan,Japan,Asia,35
-284,7067,Elmo's Go-Go Skateboard,Universal Studios Japan,Japan,Asia,18
-284,12073,Flight of the Hippogriff™,Universal Studios Japan,Japan,Asia,74
-284,12072,Freeze Ray Sliders,Universal Studios Japan,Japan,Asia,22
+284,7098,Elmo's Bubble Bubble,Universal Studios Japan,Japan,Asia,28
+284,7067,Elmo's Go-Go Skateboard,Universal Studios Japan,Japan,Asia,15
+284,12073,Flight of the Hippogriff™,Universal Studios Japan,Japan,Asia,58
+284,12072,Freeze Ray Sliders,Universal Studios Japan,Japan,Asia,18
 284,12065,Harry Potter and the Forbidden Journey™ ,Universal Studios Japan,Japan,Asia,57
 284,7063,Hello Kitty's Ribbon Collection,Universal Studios Japan,Japan,Asia,29
 284,7077,Hollywood Dream - The Ride,Universal Studios Japan,Japan,Asia,70
 284,12070,Hollywood Dream -The Ride - Backdrop-,Universal Studios Japan,Japan,Asia,89
-284,12068,JAWS™,Universal Studios Japan,Japan,Asia,32
-284,12067,Jurassic Park – The Ride™,Universal Studios Japan,Japan,Asia,68
+284,12068,JAWS™,Universal Studios Japan,Japan,Asia,26
+284,12067,Jurassic Park – The Ride™,Universal Studios Japan,Japan,Asia,53
 284,12061,Mario Kart: Koopa's Challenge™,Universal Studios Japan,Japan,Asia,75
-284,14402,Mine Cart Madness™,Universal Studios Japan,Japan,Asia,131
+284,14402,Mine Cart Madness™,Universal Studios Japan,Japan,Asia,128
 284,12197,Ollivanders™,Universal Studios Japan,Japan,Asia,17
-284,12082,Space Fantasy – The Ride,Universal Studios Japan,Japan,Asia,24
-284,12075,The Flying Snoopy,Universal Studios Japan,Japan,Asia,33
-284,12071,Yoshi's Adventure™,Universal Studios Japan,Japan,Asia,55
+284,12082,Space Fantasy – The Ride,Universal Studios Japan,Japan,Asia,21
+284,12075,The Flying Snoopy,Universal Studios Japan,Japan,Asia,28
+284,12071,Yoshi's Adventure™,Universal Studios Japan,Japan,Asia,43
 31,2829,"""it's a small world""",Disneyland Hong Kong,Hong Kong,Asia,5
 31,2820,Animation Academy,Disneyland Hong Kong,Hong Kong,Asia,0
 31,6415,Ant-Man and The Wasp: Nano Battle!,Disneyland Hong Kong,Hong Kong,Asia,6
@@ -1590,35 +1590,35 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 31,12432,Wandering Oaken’s Sliding Sleighs,Disneyland Hong Kong,Hong Kong,Asia,15
 30,3079,Camp Discovery,Shanghai Disney Resort,China,Asia,0
 30,3893,Challenge Trails at Camp Discovery,Shanghai Disney Resort,China,Asia,10
-30,2986,Roaring Rapids,Shanghai Disney Resort,China,Asia,62
-30,3002,Soaring Over the Horizon,Shanghai Disney Resort,China,Asia,72
+30,2986,Roaring Rapids,Shanghai Disney Resort,China,Asia,56
+30,3002,Soaring Over the Horizon,Shanghai Disney Resort,China,Asia,65
 30,3901,Vista Trail at Camp Discovery,Shanghai Disney Resort,China,Asia,0
 30,3080,“Once Upon a Time” Adventure,Shanghai Disney Resort,China,Asia,5
 30,2987,Alice in Wonderland Maze,Shanghai Disney Resort,China,Asia,5
-30,2988,Hunny Pot Spin,Shanghai Disney Resort,China,Asia,31
-30,2989,Peter Pan’s Flight,Shanghai Disney Resort,China,Asia,33
-30,2990,Seven Dwarfs Mine Train,Shanghai Disney Resort,China,Asia,86
+30,2988,Hunny Pot Spin,Shanghai Disney Resort,China,Asia,28
+30,2989,Peter Pan’s Flight,Shanghai Disney Resort,China,Asia,30
+30,2990,Seven Dwarfs Mine Train,Shanghai Disney Resort,China,Asia,79
 30,13818,Seven Dwarfs Mine Train Single Rider,Shanghai Disney Resort,China,Asia,0
-30,2991,The Many Adventures of Winnie the Pooh,Shanghai Disney Resort,China,Asia,41
-30,2992,Voyage to the Crystal Grotto,Shanghai Disney Resort,China,Asia,10
+30,2991,The Many Adventures of Winnie the Pooh,Shanghai Disney Resort,China,Asia,37
+30,2992,Voyage to the Crystal Grotto,Shanghai Disney Resort,China,Asia,11
 30,3896,Become Iron Man,Shanghai Disney Resort,China,Asia,6
 30,2993,Dumbo the Flying Elephant,Shanghai Disney Resort,China,Asia,35
-30,2994,Fantasia Carousel,Shanghai Disney Resort,China,Asia,20
+30,2994,Fantasia Carousel,Shanghai Disney Resort,China,Asia,18
 30,3082,Marvel Universe,Shanghai Disney Resort,China,Asia,0
 30,2999,Buzz Lightyear Planet Rescue,Shanghai Disney Resort,China,Asia,5
-30,3000,Jet Packs,Shanghai Disney Resort,China,Asia,37
+30,3000,Jet Packs,Shanghai Disney Resort,China,Asia,34
 30,3001,Stitch Encounter,Shanghai Disney Resort,China,Asia,15
-30,2985,TRON Lightcycle Power Run – Presented by Chevrolet,Shanghai Disney Resort,China,Asia,57
+30,2985,TRON Lightcycle Power Run – Presented by Chevrolet,Shanghai Disney Resort,China,Asia,54
 30,4076,"TRON Realm, Chevrolet Digital Challenge",Shanghai Disney Resort,China,Asia,0
-30,5633,Rex’s Racer,Shanghai Disney Resort,China,Asia,61
-30,5634,Slinky Dog Spin,Shanghai Disney Resort,China,Asia,35
-30,5635,Woody’s Roundup,Shanghai Disney Resort,China,Asia,39
+30,5633,Rex’s Racer,Shanghai Disney Resort,China,Asia,56
+30,5634,Slinky Dog Spin,Shanghai Disney Resort,China,Asia,32
+30,5635,Woody’s Roundup,Shanghai Disney Resort,China,Asia,36
 30,2995,Explorer Canoes,Shanghai Disney Resort,China,Asia,14
-30,2996,Pirates of the Caribbean Battle for the Sunken Treasure,Shanghai Disney Resort,China,Asia,45
+30,2996,Pirates of the Caribbean Battle for the Sunken Treasure,Shanghai Disney Resort,China,Asia,41
 30,2997,Shipwreck Shore,Shanghai Disney Resort,China,Asia,5
 30,2998,Siren's Revenge,Shanghai Disney Resort,China,Asia,5
 30,13819,Zootopia Hot Pursuit Single Rider,Shanghai Disney Resort,China,Asia,0
-30,12392,Zootopia: Hot Pursuit,Shanghai Disney Resort,China,Asia,61
+30,12392,Zootopia: Hot Pursuit,Shanghai Disney Resort,China,Asia,57
 274,8006,“it’s a small world with Groot”,Tokyo Disneyland,Japan,Asia,8
 274,8007,Alice's Tea Party,Tokyo Disneyland,Japan,Asia,6
 274,7997,Beaver Brothers Explorer Canoes,Tokyo Disneyland,Japan,Asia,20
@@ -1681,28 +1681,28 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 275,8034,Venetian Gondolas,Tokyo DisneySea,Japan,Asia,22
 286,13398,Crazy Mine,Hansa Park,Germany,Europe,0
 123,14305,冰山过山车,Chimelong Ocean Kingdom,China,Asia,11
-51,5615,Atlantis Adventure,Europa Park,Germany,Europe,2
+51,5615,Atlantis Adventure,Europa Park,Germany,Europe,1
 333,14428,Dream Boat,Lotte World,South Korea,Asia,30
 333,14432,Drunken Basket,Lotte World,South Korea,Asia,30
 56,6804,Bolles Flugschule,Phantasialand,Germany,Europe,5
 56,6809,Bolles Riesenrad,Phantasialand,Germany,Europe,5
-56,6819,Maus au Chocolat,Phantasialand,Germany,Europe,10
+56,6819,Maus au Chocolat,Phantasialand,Germany,Europe,9
 56,6816,Pferdekarussell,Phantasialand,Germany,Europe,5
 56,6824,Wellenflug,Phantasialand,Germany,Europe,5
 56,6820,Feng Ju Palace,Phantasialand,Germany,Europe,10
 56,6821,Geister Rikscha,Phantasialand,Germany,Europe,5
 56,6825,Black Mamba,Phantasialand,Germany,Europe,28
 56,10868,Deep in Africa – Adventure Trail,Phantasialand,Germany,Europe,5
-56,6813,Tikal,Phantasialand,Germany,Europe,8
+56,6813,Tikal,Phantasialand,Germany,Europe,10
 31,4436,Iron Man Tech Showcase - Presented by Stark Industries,Disneyland Hong Kong,Hong Kong,Asia,0
 322,11928,Alpyodel,Familypark,Austria,Europe,5
 322,12601,Azurgo,Familypark,Austria,Europe,6
 322,11914,Balloon carousel,Familypark,Austria,Europe,5
-322,11942,Crazy scarecrow,Familypark,Austria,Europe,4
+322,11942,Crazy scarecrow,Familypark,Austria,Europe,3
 322,11934,Dancing barrel,Familypark,Austria,Europe,5
-322,11915,Duck parade,Familypark,Austria,Europe,3
-322,11916,Fairy tale carousel,Familypark,Austria,Europe,4
-322,11949,Flying Fish,Familypark,Austria,Europe,5
+322,11915,Duck parade,Familypark,Austria,Europe,2
+322,11916,Fairy tale carousel,Familypark,Austria,Europe,3
+322,11949,Flying Fish,Familypark,Austria,Europe,6
 322,11936,Jumping Frog,Familypark,Austria,Europe,4
 322,11963,Lake Dragon,Familypark,Austria,Europe,1
 322,11956,Leonardo's Flying machine,Familypark,Austria,Europe,3
@@ -1714,67 +1714,67 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 9,6457,Attention Menhir !,Parc Astérix,France,Europe,5
 9,11775,Chez Gyrofolix,Parc Astérix,France,Europe,5
 9,13074,La tour de Numérobis,Parc Astérix,France,Europe,5
-9,5649,OzIris,Parc Astérix,France,Europe,10
-9,11770,Toutatis,Parc Astérix,France,Europe,12
+9,5649,OzIris,Parc Astérix,France,Europe,9
+9,11770,Toutatis,Parc Astérix,France,Europe,13
 51,5606,Alpine Express 'Enzian',Europa Park,Germany,Europe,15
 51,5624,Josefina’s Magical Imperial Journey,Europa Park,Germany,Europe,2
-51,5609,Tirol Log Flume,Europa Park,Germany,Europe,8
-51,5629,Vienna Wave Swing - 'Glückspilz',Europa Park,Germany,Europe,1
-51,13349,Voltron Nevera powered by Rimac,Europa Park,Germany,Europe,39
-51,5621,Arena of Football - Be Part of It!,Europa Park,Germany,Europe,1
+51,5609,Tirol Log Flume,Europa Park,Germany,Europe,9
+51,5629,Vienna Wave Swing - 'Glückspilz',Europa Park,Germany,Europe,2
+51,13349,Voltron Nevera powered by Rimac,Europa Park,Germany,Europe,38
+51,5621,Arena of Football - Be Part of It!,Europa Park,Germany,Europe,2
 51,5619,Euro-Tower,Europa Park,Germany,Europe,9
-51,5737,Eurosat - CanCan Coaster,Europa Park,Germany,Europe,26
+51,5737,Eurosat - CanCan Coaster,Europa Park,Germany,Europe,25
 51,6280,Eurosat Coastiality,Europa Park,Germany,Europe,0
 51,5738,Madame Freudenreich Curiosités,Europa Park,Germany,Europe,1
-51,5604,Silver Star,Europa Park,Germany,Europe,19
-51,5631,Jim Button – Journey through Morrowland,Europa Park,Germany,Europe,1
-51,11753,VirtualLine: Voletarium,Europa Park,Germany,Europe,21
-51,5630,Voletarium,Europa Park,Germany,Europe,20
-51,5608,Pegasus,Europa Park,Germany,Europe,10
-51,11754,VirtualLine: Water Rollercoaster Poseidon,Europa Park,Germany,Europe,20
+51,5604,Silver Star,Europa Park,Germany,Europe,18
+51,5631,Jim Button – Journey through Morrowland,Europa Park,Germany,Europe,2
+51,11753,VirtualLine: Voletarium,Europa Park,Germany,Europe,27
+51,5630,Voletarium,Europa Park,Germany,Europe,21
+51,5608,Pegasus,Europa Park,Germany,Europe,11
+51,11754,VirtualLine: Water Rollercoaster Poseidon,Europa Park,Germany,Europe,16
 51,5611,Water rollercoaster Poseidon,Europa Park,Germany,Europe,20
-51,5603,blue fire Megacoaster,Europa Park,Germany,Europe,24
+51,5603,blue fire Megacoaster,Europa Park,Germany,Europe,23
 51,5614,Whale Adventures - Northern Lights,Europa Park,Germany,Europe,1
-51,5602,WODAN - Timburcoaster,Europa Park,Germany,Europe,28
-51,5622,Ba-a-a Express,Europa Park,Germany,Europe,2
+51,5602,WODAN - Timburcoaster,Europa Park,Germany,Europe,29
+51,5622,Ba-a-a Express,Europa Park,Germany,Europe,4
 51,5623,Dancing Dingie,Europa Park,Germany,Europe,5
 51,5626,Old Mac Donald's Tractor Fun,Europa Park,Germany,Europe,1
 51,5616,Castello dei Medici,Europa Park,Germany,Europe,1
 51,5620,Volo da Vinci,Europa Park,Germany,Europe,12
 51,14534,GRAND PRIX EDventure,Europa Park,Germany,Europe,5
-51,5618,ARTHUR,Europa Park,Germany,Europe,23
+51,5618,ARTHUR,Europa Park,Germany,Europe,24
 51,5627,Poppy Towers,Europa Park,Germany,Europe,5
-51,5617,Pirates in Batavia,Europa Park,Germany,Europe,12
-51,5610,Atlantica SuperSplash,Europa Park,Germany,Europe,12
-51,5605,Euro-Mir,Europa Park,Germany,Europe,17
+51,5617,Pirates in Batavia,Europa Park,Germany,Europe,13
+51,5610,Atlantica SuperSplash,Europa Park,Germany,Europe,14
+51,5605,Euro-Mir,Europa Park,Germany,Europe,18
 51,5612,Fjord-Rafting,Europa Park,Germany,Europe,12
-51,7301,Snorri Touren,Europa Park,Germany,Europe,4
-51,5628,Vindjammer,Europa Park,Germany,Europe,1
+51,7301,Snorri Touren,Europa Park,Germany,Europe,3
+51,5628,Vindjammer,Europa Park,Germany,Europe,2
 51,5625,Kolumbusjolle,Europa Park,Germany,Europe,5
-51,5607,Matterhorn-Blitz,Europa Park,Germany,Europe,22
-51,5613,Swiss Bob Run,Europa Park,Germany,Europe,27
+51,5607,Matterhorn-Blitz,Europa Park,Germany,Europe,21
+51,5613,Swiss Bob Run,Europa Park,Germany,Europe,26
 160,6188,Fata Morgana,Efteling,Netherlands,Europe,4
 160,7356,Max & Moritz,Efteling,Netherlands,Europe,7
-160,6165,Droomvlucht,Efteling,Netherlands,Europe,5
+160,6165,Droomvlucht,Efteling,Netherlands,Europe,8
 160,6265,Droomvlucht VR,Efteling,Netherlands,Europe,0
 160,6169,Villa Volta,Efteling,Netherlands,Europe,5
 160,10462,Archipel,Efteling,Netherlands,Europe,0
 160,6173,Carnaval Festival,Efteling,Netherlands,Europe,3
 160,10463,Sirocco,Efteling,Netherlands,Europe,5
 160,6177,Vogel Rok,Efteling,Netherlands,Europe,6
-160,6170,Baron 1898,Efteling,Netherlands,Europe,19
+160,6170,Baron 1898,Efteling,Netherlands,Europe,18
 160,6171,Baron 1898 Single-rider,Efteling,Netherlands,Europe,13
 286,13401,HANSA Carousel,Hansa Park,Germany,Europe,0
 286,13399,HANSA Swing Ride,Hansa Park,Germany,Europe,0
 333,14422,French Revolution,Lotte World,South Korea,Asia,90
 333,14446,Pharaoh's Fury,Lotte World,South Korea,Asia,90
 320,11469,Balloon,PanoraMagique,France,Europe,10
-56,6829,Das verrückte Hotel Tartüff,Phantasialand,Germany,Europe,9
+56,6829,Das verrückte Hotel Tartüff,Phantasialand,Germany,Europe,10
 4,2704,Pirates' Beach,Disneyland Park Paris,France,Europe,0
 4,2710,La Tanière du Dragon,Disneyland Park Paris,France,Europe,0
 4,12,Main Street Vehicles,Disneyland Park Paris,France,Europe,5
 322,11943,Forest Express,Familypark,Austria,Europe,5
-322,11937,Rooster Chase,Familypark,Austria,Europe,0
+322,11937,Rooster Chase,Familypark,Austria,Europe,1
 276,6795,Boomerang,Bellewaerde,Belgium,Europe,6
 276,12999,Brazilian Buggies,Bellewaerde,Belgium,Europe,6
 276,6780,Carrousel,Bellewaerde,Belgium,Europe,5
@@ -1802,21 +1802,21 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 276,13486,Vlinders,Bellewaerde,Belgium,Europe,5
 276,10180,Wakala,Bellewaerde,Belgium,Europe,5
 322,11929,Apple carousel,Familypark,Austria,Europe,0
-322,11955,Crocodile splash ride,Familypark,Austria,Europe,3
+322,11955,Crocodile splash ride,Familypark,Austria,Europe,2
 322,11944,Forest animal ride,Familypark,Austria,Europe,5
 322,11953,Lightning of the gods,Familypark,Austria,Europe,5
 322,11967,Temple slide,Familypark,Austria,Europe,6
 322,11932,The crazy cyclone,Familypark,Austria,Europe,5
 291,7942,Cyber Avenue,Futuroscope,France,Europe,0
 291,11542,Journey into the Dark,Futuroscope,France,Europe,0
-291,7947,The Extraordinary Journey,Futuroscope,France,Europe,6
+291,7947,The Extraordinary Journey,Futuroscope,France,Europe,4
 291,7939,The Time Machine,Futuroscope,France,Europe,0
 9,8207,Aérodynamix,Parc Astérix,France,Europe,5
-9,5643,Discobélix,Parc Astérix,France,Europe,15
+9,5643,Discobélix,Parc Astérix,France,Europe,17
 9,8206,Enigmatix,Parc Astérix,France,Europe,5
 9,13874,Epidemaïs Croisières,Parc Astérix,France,Europe,5
 9,8205,Etamine,Parc Astérix,France,Europe,5
-9,5651,Goudurix,Parc Astérix,France,Europe,6
+9,5651,Goudurix,Parc Astérix,France,Europe,5
 9,6363,Hydrolix,Parc Astérix,France,Europe,5
 9,8201,L'Escadrille des As,Parc Astérix,France,Europe,5
 9,5659,L'Hydre de Lerne,Parc Astérix,France,Europe,5
@@ -1824,10 +1824,10 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 9,8189,La Petite Tempête,Parc Astérix,France,Europe,5
 9,5648,La revanche des pirates - Le Grand Splatch,Parc Astérix,France,Europe,5
 9,5654,La Rivière d'Elis,Parc Astérix,France,Europe,5
-9,5650,La Trace du Hourra,Parc Astérix,France,Europe,8
+9,5650,La Trace du Hourra,Parc Astérix,France,Europe,7
 9,8208,Lavomatix,Parc Astérix,France,Europe,5
 9,8184,Le Carrousel de César,Parc Astérix,France,Europe,5
-9,6102,Le Cheval de Troie,Parc Astérix,France,Europe,7
+9,6102,Le Cheval de Troie,Parc Astérix,France,Europe,6
 9,5644,Le Défi de César,Parc Astérix,France,Europe,5
 9,8202,Le Mini Carrousel,Parc Astérix,France,Europe,5
 9,6364,Le Petit Train,Parc Astérix,France,Europe,5
@@ -1835,24 +1835,24 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 9,5645,Les Chaises Volantes,Parc Astérix,France,Europe,5
 9,5656,Les Chaudrons,Parc Astérix,France,Europe,5
 9,8183,Les Chevaux du Roy,Parc Astérix,France,Europe,5
-9,5652,Les Espions de César,Parc Astérix,France,Europe,5
+9,5652,Les Espions de César,Parc Astérix,France,Europe,6
 9,8200,Les Petites Chaises Volantes,Parc Astérix,France,Europe,5
 9,8203,Les Petits Chars tamponneurs,Parc Astérix,France,Europe,5
-9,5655,Menhir Express,Parc Astérix,France,Europe,13
-9,5642,Pégase Express,Parc Astérix,France,Europe,10
-9,5647,Romus et Rapidus,Parc Astérix,France,Europe,5
+9,5655,Menhir Express,Parc Astérix,France,Europe,15
+9,5642,Pégase Express,Parc Astérix,France,Europe,9
+9,5647,Romus et Rapidus,Parc Astérix,France,Europe,6
 9,6153,SOS Tournevis,Parc Astérix,France,Europe,5
 9,10760,Tonnerre 2 Zeus,Parc Astérix,France,Europe,10
 51,13504,VirtualLine: Voltron Nevera powered by Rimac,Europa Park,Germany,Europe,0
-1,11143,Monorail to Entrance Plaza,Alton Towers,England,Europe,7
+1,11143,Monorail to Entrance Plaza,Alton Towers,England,Europe,6
 1,11144,Monorail to Hotels & Car Parks,Alton Towers,England,Europe,5
-12,450,Blue Tornado,Gardaland,Italy,Europe,10
-12,448,Magic House,Gardaland,Italy,Europe,1
-12,1905,Oblivion The Black Hole,Gardaland,Italy,Europe,5
-12,452,Raptor,Gardaland,Italy,Europe,11
-12,444,Fuga da Atlantide,Gardaland,Italy,Europe,12
+12,450,Blue Tornado,Gardaland,Italy,Europe,8
+12,448,Magic House,Gardaland,Italy,Europe,0
+12,1905,Oblivion The Black Hole,Gardaland,Italy,Europe,6
+12,452,Raptor,Gardaland,Italy,Europe,9
+12,444,Fuga da Atlantide,Gardaland,Italy,Europe,11
 12,453,Jungle Rapids,Gardaland,Italy,Europe,0
-12,454,Mammut,Gardaland,Italy,Europe,21
+12,454,Mammut,Gardaland,Italy,Europe,17
 12,11779,Baby Cavalli,Gardaland,Italy,Europe,5
 12,11777,Baby Corsaro,Gardaland,Italy,Europe,5
 12,8842,Baby Pilota,Gardaland,Italy,Europe,5
@@ -1866,22 +1866,22 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 12,6693,Peppa Pig Land - L'isola dei Pirati,Gardaland,Italy,Europe,5
 12,11781,Peppa Pig Land - La Mongolfiera di Peppa Pig,Gardaland,Italy,Europe,0
 12,6683,Transgardaland Express,Gardaland,Italy,Europe,5
-12,449,Volaplano,Gardaland,Italy,Europe,4
-25,2042,Big Loop,Heide Park,Germany,Europe,7
+12,449,Volaplano,Gardaland,Italy,Europe,3
+25,2042,Big Loop,Heide Park,Germany,Europe,6
 25,5543,Bounty,Heide Park,Germany,Europe,4
 25,5544,Floßfahrt,Heide Park,Germany,Europe,1
 25,5541,Käpt´ ns Törn,Heide Park,Germany,Europe,4
-25,2043,KRAKE,Heide Park,Germany,Europe,10
+25,2043,KRAKE,Heide Park,Germany,Europe,11
 25,5540,Panoramabahn,Heide Park,Germany,Europe,1
 25,5542,ToPiLauLa-Schlacht,Heide Park,Germany,Europe,5
-25,7371,Heide Park Express,Heide Park,Germany,Europe,6
+25,7371,Heide Park Express,Heide Park,Germany,Europe,8
 25,7369,Nostalgiekarussell,Heide Park,Germany,Europe,0
 25,5545,Oldtimer-Rundkurs,Heide Park,Germany,Europe,4
-25,7374,Dampfkarussell,Heide Park,Germany,Europe,1
+25,7374,Dampfkarussell,Heide Park,Germany,Europe,2
 25,5532,Drachengrotte,Heide Park,Germany,Europe,1
 25,7373,Ghostbusters 5D,Heide Park,Germany,Europe,5
 25,5523,Indy-Blitz,Heide Park,Germany,Europe,1
-25,5526,Monorail,Heide Park,Germany,Europe,3
+25,5526,Monorail,Heide Park,Germany,Europe,5
 25,2036,Mountain Rafting,Heide Park,Germany,Europe,1
 25,5524,Western-Riesenrad,Heide Park,Germany,Europe,5
 25,2035,Wildwasserbahn,Heide Park,Germany,Europe,0
@@ -1889,8 +1889,8 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 25,7370,Hicks Himmelsstürmer,Heide Park,Germany,Europe,1
 25,7362,Raffnuss & Taffnuss Wasserflieger,Heide Park,Germany,Europe,1
 25,5536,Breakdance,Heide Park,Germany,Europe,3
-25,2038,Colossos - Kampf der Giganten,Heide Park,Germany,Europe,17
-25,2037,Desert Race,Heide Park,Germany,Europe,2
+25,2038,Colossos - Kampf der Giganten,Heide Park,Germany,Europe,15
+25,2037,Desert Race,Heide Park,Germany,Europe,3
 25,5537,La Ola,Heide Park,Germany,Europe,1
 25,5533,Magic,Heide Park,Germany,Europe,5
 25,7368,Opa Pigs Zugfahrt,Heide Park,Germany,Europe,1
@@ -1900,10 +1900,10 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 25,7361,Schorschs Dino-Abenteuer,Heide Park,Germany,Europe,5
 25,2040,Bobbahn,Heide Park,Germany,Europe,8
 25,12435,Dämonen Gruft,Heide Park,Germany,Europe,4
-25,2041,Flug der Dämonen,Heide Park,Germany,Europe,11
-25,5539,Scream,Heide Park,Germany,Europe,7
-25,5538,Screamie,Heide Park,Germany,Europe,4
-25,2039,Toxic Garden,Heide Park,Germany,Europe,6
+25,2041,Flug der Dämonen,Heide Park,Germany,Europe,10
+25,5539,Scream,Heide Park,Germany,Europe,6
+25,5538,Screamie,Heide Park,Germany,Europe,5
+25,2039,Toxic Garden,Heide Park,Germany,Europe,7
 160,14114,Danse Macabre,Efteling,Netherlands,Europe,24
 160,14163,Danse Macabre Single-rider,Efteling,Netherlands,Europe,0
 160,7308,Fabula,Efteling,Netherlands,Europe,10
@@ -1916,20 +1916,20 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 160,6178,Efteling Museum,Efteling,Netherlands,Europe,0
 160,6154,Fairytale Forest,Efteling,Netherlands,Europe,0
 160,6172,Kindervreugd,Efteling,Netherlands,Europe,0
-160,6174,Monorail,Efteling,Netherlands,Europe,4
+160,6174,Monorail,Efteling,Netherlands,Europe,5
 160,6159,Stoomcarrousel,Efteling,Netherlands,Europe,0
 160,7236,The Six Swans,Efteling,Netherlands,Europe,0
 160,6362,Volkvanlaaf,Efteling,Netherlands,Europe,0
-160,6181,Gondoletta,Efteling,Netherlands,Europe,8
+160,6181,Gondoletta,Efteling,Netherlands,Europe,9
 160,6180,Kleuterhof,Efteling,Netherlands,Europe,0
-160,6157,De Oude Tufferbaan,Efteling,Netherlands,Europe,17
-160,6166,De Vliegende Hollander,Efteling,Netherlands,Europe,20
-160,6156,Halve Maen,Efteling,Netherlands,Europe,5
-160,6167,Joris en de Draak,Efteling,Netherlands,Europe,11
+160,6157,De Oude Tufferbaan,Efteling,Netherlands,Europe,15
+160,6166,De Vliegende Hollander,Efteling,Netherlands,Europe,22
+160,6156,Halve Maen,Efteling,Netherlands,Europe,6
+160,6167,Joris en de Draak,Efteling,Netherlands,Europe,12
 160,6168,Joris en de Draak Single-rider,Efteling,Netherlands,Europe,5
-160,6155,Kinderspoor,Efteling,Netherlands,Europe,6
+160,6155,Kinderspoor,Efteling,Netherlands,Europe,5
 160,8841,Nest!,Efteling,Netherlands,Europe,0
-160,6163,Python,Efteling,Netherlands,Europe,17
+160,6163,Python,Efteling,Netherlands,Europe,18
 160,6161,Stoomtrein Ruigrijk,Efteling,Netherlands,Europe,0
 286,13418,"""Flower Magic"" Boat Tour",Hansa Park,Germany,Europe,0
 286,13429,"""HIGHLANDER""",Hansa Park,Germany,Europe,0
@@ -1996,7 +1996,7 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 303,9305,Yukon Quad,Le Pal,France,Europe,7
 56,6835,Avoras,Phantasialand,Germany,Europe,1
 56,6839,Bumper Klumpen,Phantasialand,Germany,Europe,5
-56,5820,Crazy Bats,Phantasialand,Germany,Europe,19
+56,5820,Crazy Bats,Phantasialand,Germany,Europe,22
 56,6833,Der lustige Papagei,Phantasialand,Germany,Europe,5
 56,6834,Die fröhliche Bienchenjagd,Phantasialand,Germany,Europe,5
 56,6831,Tittle Tattle Tree,Phantasialand,Germany,Europe,5
@@ -2006,32 +2006,32 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 56,6837,Wözl‘s Wassertreter,Phantasialand,Germany,Europe,6
 56,6841,Wupi‘s Wabi Wipper,Phantasialand,Germany,Europe,5
 56,6832,Würmling Express,Phantasialand,Germany,Europe,5
-56,6814,Chiapas - DIE Wasserbahn,Phantasialand,Germany,Europe,12
+56,6814,Chiapas - DIE Wasserbahn,Phantasialand,Germany,Europe,15
 56,11815,Colorado Adventure,Phantasialand,Germany,Europe,18
-56,6812,Talocan,Phantasialand,Germany,Europe,13
-56,6807,Mystery Castle,Phantasialand,Germany,Europe,12
-56,6806,Raik,Phantasialand,Germany,Europe,12
-56,6808,River Quest,Phantasialand,Germany,Europe,14
-56,8236,F.L.Y.,Phantasialand,Germany,Europe,37
-19,12142,Coco Piloto,PortAventura Park,Spain,Europe,8
-19,593,Dragon Khan,PortAventura Park,Spain,Europe,40
+56,6812,Talocan,Phantasialand,Germany,Europe,12
+56,6807,Mystery Castle,Phantasialand,Germany,Europe,11
+56,6806,Raik,Phantasialand,Germany,Europe,10
+56,6808,River Quest,Phantasialand,Germany,Europe,15
+56,8236,F.L.Y.,Phantasialand,Germany,Europe,34
+19,12142,Coco Piloto,PortAventura Park,Spain,Europe,7
+19,593,Dragon Khan,PortAventura Park,Spain,Europe,35
 19,597,El Salto de Blas,PortAventura Park,Spain,Europe,4
-19,12140,Kontiki,PortAventura Park,Spain,Europe,4
-19,605,La Granja de Elmo,PortAventura Park,Spain,Europe,4
+19,12140,Kontiki,PortAventura Park,Spain,Europe,3
+19,605,La Granja de Elmo,PortAventura Park,Spain,Europe,3
 19,609,Magic Fish,PortAventura Park,Spain,Europe,3
-19,610,Mariposas Saltarinas,PortAventura Park,Spain,Europe,3
-19,613,Serpiente Emplumada,PortAventura Park,Spain,Europe,6
+19,610,Mariposas Saltarinas,PortAventura Park,Spain,Europe,4
+19,613,Serpiente Emplumada,PortAventura Park,Spain,Europe,4
 19,615,Shambhala,PortAventura Park,Spain,Europe,40
 19,13397,Street Mission,PortAventura Park,Spain,Europe,3
 19,618,Tami - Tami,PortAventura Park,Spain,Europe,4
-4,4573,Welcome to Starport: A Star Wars Encounter,Disneyland Park Paris,France,Europe,42
+4,4573,Welcome to Starport: A Star Wars Encounter,Disneyland Park Paris,France,Europe,40
 4,14,Alice's Curious Labyrinth,Disneyland Park Paris,France,Europe,5
-4,13,Meet Mickey Mouse,Disneyland Park Paris,France,Europe,55
-4,24,Princess Pavilion,Disneyland Park Paris,France,Europe,103
-139,14629,冲天双浪板,Chimelong Water Park,China,Asia,10
+4,13,Meet Mickey Mouse,Disneyland Park Paris,France,Europe,56
+4,24,Princess Pavilion,Disneyland Park Paris,France,Europe,93
+139,14629,冲天双浪板,Chimelong Water Park,China,Asia,14
 276,6777,Bengal Express,Bellewaerde,Belgium,Europe,5
 322,11931,Beaver lodge,Familypark,Austria,Europe,4
-322,11912,Rat Mill,Familypark,Austria,Europe,15
+322,11912,Rat Mill,Familypark,Austria,Europe,12
 291,11756,Upside Down House,Futuroscope,France,Europe,0
 53,6087,Condor,Walibi Holland,Netherlands,Europe,20
 53,7351,El Rio Grande,Walibi Holland,Netherlands,Europe,20
@@ -2050,95 +2050,95 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 1,56,Andy’s Adventures Dinosaur Dig,Alton Towers,England,Europe,5
 1,4614,Battle Galleons,Alton Towers,England,Europe,5
 1,4642,Bugbie-Go-Round,Alton Towers,England,Europe,5
-1,4632,Get Set Go Tree Top Adventure,Alton Towers,England,Europe,21
+1,4632,Get Set Go Tree Top Adventure,Alton Towers,England,Europe,22
 1,4633,Go Jetters Vroomster Zoom Ride,Alton Towers,England,Europe,5
 1,4621,Heave Ho,Alton Towers,England,Europe,5
-1,4639,In The Night Garden Magical Boat Ride,Alton Towers,England,Europe,7
+1,4639,In The Night Garden Magical Boat Ride,Alton Towers,England,Europe,6
 1,49,JoJo & Gran Gran At Home,Alton Towers,England,Europe,5
 1,4622,Justin's House Pie-O-Matic Factory,Alton Towers,England,Europe,5
 1,4625,Marauder's Mayhem,Alton Towers,England,Europe,5
 1,4636,Octonauts Rollercoaster Adventure,Alton Towers,England,Europe,5
 1,6384,Peter Rabbit Hippity Hop,Alton Towers,England,Europe,5
-1,4630,Postman Pat Parcel Post,Alton Towers,England,Europe,7
+1,4630,Postman Pat Parcel Post,Alton Towers,England,Europe,6
 1,4623,Runaway Mine Train,Alton Towers,England,Europe,5
 1,12036,Sharkbait Reef by SEA LIFE,Alton Towers,England,Europe,5
 1,4617,The Curse at Alton Manor,Alton Towers,England,Europe,5
 1,12037,The Gardens,Alton Towers,England,Europe,0
-1,4641,Nemesis Reborn,Alton Towers,England,Europe,15
-1,48,Nemesis Sub-Terra,Alton Towers,England,Europe,8
-1,4635,Oblivion,Alton Towers,England,Europe,18
-1,4638,Spinball Whizzer,Alton Towers,England,Europe,16
-1,4640,The Smiler,Alton Towers,England,Europe,25
+1,4641,Nemesis Reborn,Alton Towers,England,Europe,16
+1,48,Nemesis Sub-Terra,Alton Towers,England,Europe,7
+1,4635,Oblivion,Alton Towers,England,Europe,15
+1,4638,Spinball Whizzer,Alton Towers,England,Europe,14
+1,4640,The Smiler,Alton Towers,England,Europe,20
 1,14475,Toxicator,Alton Towers,England,Europe,8
-1,5489,Wicker Man,Alton Towers,England,Europe,31
+1,5489,Wicker Man,Alton Towers,England,Europe,24
 12,443,Shaman,Gardaland,Italy,Europe,0
-12,6696,Space Vertigo,Gardaland,Italy,Europe,6
-12,6647,Animal Treasure Island,Gardaland,Italy,Europe,1
-12,445,Colorado Boat,Gardaland,Italy,Europe,5
-12,10557,Jumanji - The Adventure,Gardaland,Italy,Europe,16
-12,13626,Wolf Legend,Gardaland,Italy,Europe,17
+12,6696,Space Vertigo,Gardaland,Italy,Europe,5
+12,6647,Animal Treasure Island,Gardaland,Italy,Europe,0
+12,445,Colorado Boat,Gardaland,Italy,Europe,9
+12,10557,Jumanji - The Adventure,Gardaland,Italy,Europe,21
+12,13626,Wolf Legend,Gardaland,Italy,Europe,16
 12,11807,Il Bosco degli Gnomi,Gardaland,Italy,Europe,0
 49,10595,Indoor Play Area,Paultons Park,England,Europe,0
-49,6963,The Victorian Carousel,Paultons Park,England,Europe,1
+49,6963,The Victorian Carousel,Paultons Park,England,Europe,0
 49,6966,Viking Boats,Paultons Park,England,Europe,0
-49,6937,Boulder Dash,Paultons Park,England,Europe,1
+49,6937,Boulder Dash,Paultons Park,England,Europe,0
 49,6942,Dino Chase,Paultons Park,England,Europe,0
-49,6960,Flight of the Pterosaur,Paultons Park,England,Europe,3
-49,13462,Splash Lagoon,Paultons Park,England,Europe,0
-49,6959,The Dinosaur Tour Co.,Paultons Park,England,Europe,0
-49,6965,Velociraptor,Paultons Park,England,Europe,1
+49,6960,Flight of the Pterosaur,Paultons Park,England,Europe,2
+49,13462,Splash Lagoon,Paultons Park,England,Europe,3
+49,6959,The Dinosaur Tour Co.,Paultons Park,England,Europe,1
+49,6965,Velociraptor,Paultons Park,England,Europe,0
 49,6940,Daddy Pig's Car Ride,Paultons Park,England,Europe,5
-49,6946,George's Dinosaur Adventure,Paultons Park,England,Europe,3
+49,6946,George's Dinosaur Adventure,Paultons Park,England,Europe,5
 49,6947,Grampy Rabbit's Sailing Club,Paultons Park,England,Europe,3
 49,6948,Grandpa Pig's Boat Trip,Paultons Park,England,Europe,0
-49,6949,Grandpa Pig's Little Train,Paultons Park,England,Europe,2
-49,6952,Miss Rabbit's Helicopter Flight,Paultons Park,England,Europe,3
-49,6953,Peppa's Big Balloon Ride,Paultons Park,England,Europe,1
-49,6961,The Queen's Flying Coach Ride,Paultons Park,England,Europe,3
+49,6949,Grandpa Pig's Little Train,Paultons Park,England,Europe,3
+49,6952,Miss Rabbit's Helicopter Flight,Paultons Park,England,Europe,4
+49,6953,Peppa's Big Balloon Ride,Paultons Park,England,Europe,0
+49,6961,The Queen's Flying Coach Ride,Paultons Park,England,Europe,2
 49,6967,Windy Castle,Paultons Park,England,Europe,0
-49,8706,Al's Auto Academy,Paultons Park,England,Europe,3
-49,6973,Buffalo Falls,Paultons Park,England,Europe,2
+49,8706,Al's Auto Academy,Paultons Park,England,Europe,5
+49,6973,Buffalo Falls,Paultons Park,England,Europe,5
 49,8685,Cyclonator,Paultons Park,England,Europe,0
 49,10589,Farmyard Flyer,Paultons Park,England,Europe,0
-49,8684,Storm Chaser,Paultons Park,England,Europe,1
-49,6964,Trekking Tractors,Paultons Park,England,Europe,1
-49,8686,Windmill Towers,Paultons Park,England,Europe,0
-56,6828,Winja‘s Fear,Phantasialand,Germany,Europe,28
+49,8684,Storm Chaser,Paultons Park,England,Europe,0
+49,6964,Trekking Tractors,Paultons Park,England,Europe,2
+49,8686,Windmill Towers,Paultons Park,England,Europe,1
+56,6828,Winja‘s Fear,Phantasialand,Germany,Europe,30
 19,12115,Angkor,PortAventura Park,Spain,Europe,0
 19,586,Armadillos,PortAventura Park,Spain,Europe,0
 19,13357,Buffalo Rodeo,PortAventura Park,Spain,Europe,0
 19,589,Carousel,PortAventura Park,Spain,Europe,0
 19,590,Cobra imperial,PortAventura Park,Spain,Europe,0
-19,592,Crazy Barrels,PortAventura Park,Spain,Europe,5
-19,600,Furius Baco,PortAventura Park,Spain,Europe,71
-19,601,Grand Canyon Rapids,PortAventura Park,Spain,Europe,11
+19,592,Crazy Barrels,PortAventura Park,Spain,Europe,4
+19,600,Furius Baco,PortAventura Park,Spain,Europe,55
+19,601,Grand Canyon Rapids,PortAventura Park,Spain,Europe,8
 19,12144,Kiddie Dragons,PortAventura Park,Spain,Europe,0
 19,14387,Kiddie Kities,PortAventura Park,Spain,Europe,0
 19,608,Los Potrillos,PortAventura Park,Spain,Europe,0
 19,619,Tea Cups,PortAventura Park,Spain,Europe,0
-19,620,Tomahawk,PortAventura Park,Spain,Europe,20
-19,621,Tutuki Splash,PortAventura Park,Spain,Europe,8
-19,12121,Uncharted,PortAventura Park,Spain,Europe,80
-19,622,VolPaiute,PortAventura Park,Spain,Europe,3
+19,620,Tomahawk,PortAventura Park,Spain,Europe,23
+19,621,Tutuki Splash,PortAventura Park,Spain,Europe,5
+19,12121,Uncharted,PortAventura Park,Spain,Europe,82
+19,622,VolPaiute,PortAventura Park,Spain,Europe,2
 19,623,Waikiki,PortAventura Park,Spain,Europe,0
-19,625,Wild Buffalos,PortAventura Park,Spain,Europe,9
+19,625,Wild Buffalos,PortAventura Park,Spain,Europe,8
 19,626,Yucatán,PortAventura Park,Spain,Europe,0
-28,29,Cars ROAD TRIP,Walt Disney Studios Paris,France,Europe,16
+28,29,Cars ROAD TRIP,Walt Disney Studios Paris,France,Europe,13
 273,13080,Big One,Blackpool Pleasure Beach,England,Europe,17
 273,6411,ICON,Blackpool Pleasure Beach,England,Europe,13
-19,595,El Diablo - Tren De La Mina,PortAventura Park,Spain,Europe,14
-19,598,El Secreto de los Mayas,PortAventura Park,Spain,Europe,5
+19,595,El Diablo - Tren De La Mina,PortAventura Park,Spain,Europe,10
+19,598,El Secreto de los Mayas,PortAventura Park,Spain,Europe,7
 19,602,Hurakan Condor,PortAventura Park,Spain,Europe,68
-19,616,Silver River Flume,PortAventura Park,Spain,Europe,20
-1,4634,Congo River Rapids,Alton Towers,England,Europe,8
+19,616,Silver River Flume,PortAventura Park,Spain,Europe,18
+1,4634,Congo River Rapids,Alton Towers,England,Europe,7
 1,4616,Cuckoo Cars Driving School,Alton Towers,England,Europe,5
 1,4618,Raj’s Bouncy Bottom Burp,Alton Towers,England,Europe,5
 1,4620,The Royal Carousel,Alton Towers,England,Europe,5
-1,4631,TH13TEEN,Alton Towers,England,Europe,22
-12,3740,Dragon Rush,Gardaland,Italy,Europe,20
+1,4631,TH13TEEN,Alton Towers,England,Europe,20
+12,3740,Dragon Rush,Gardaland,Italy,Europe,21
 12,6689,Monorotaia,Gardaland,Italy,Europe,0
 12,447,Ortobruco Tour,Gardaland,Italy,Europe,0
-12,6690,Peter Pan,Gardaland,Italy,Europe,0
+12,6690,Peter Pan,Gardaland,Italy,Europe,1
 12,6692,Rocket Factory,Gardaland,Italy,Europe,0
 12,6691,Superbaby,Gardaland,Italy,Europe,0
 273,12979,Alice in Wonderland,Blackpool Pleasure Beach,England,Europe,10
@@ -2163,9 +2163,9 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 273,6403,Revolution,Blackpool Pleasure Beach,England,Europe,7
 286,13436,Super Splash,Hansa Park,Germany,Europe,0
 286,13435,Wild Water Ride  - The Great Pike,Hansa Park,Germany,Europe,0
-49,6962,The Sky Swinger,Paultons Park,England,Europe,0
+49,6962,The Sky Swinger,Paultons Park,England,Europe,1
 49,14508,Alive! Dinosaur Encounter ,Paultons Park,England,Europe,0
-56,6805,Taron,Phantasialand,Germany,Europe,41
+56,6805,Taron,Phantasialand,Germany,Europe,36
 298,12460,A Toda Máquina,Parque Warner Madrid,Spain,Europe,5
 298,10129,Cartoon Carousel,Parque Warner Madrid,Spain,Europe,5
 298,8696,Correcaminos Bip Bip,Parque Warner Madrid,Spain,Europe,5
@@ -2186,16 +2186,16 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 298,8699,Cataratas Salvajes,Parque Warner Madrid,Spain,Europe,5
 298,8844,Coaster Express,Parque Warner Madrid,Spain,Europe,7
 298,10130,Los Carros de la Mina,Parque Warner Madrid,Spain,Europe,5
-19,617,Stampida,PortAventura Park,Spain,Europe,30
+19,617,Stampida,PortAventura Park,Spain,Europe,21
 4,2707,Mickey’s PhilharMagic,Disneyland Park Paris,France,Europe,0
-4,11,Disneyland Railroad Main Street Station,Disneyland Park Paris,France,Europe,53
-4,2714,Disneyland Railroad Frontierland Depot,Disneyland Park Paris,France,Europe,26
+4,11,Disneyland Railroad Main Street Station,Disneyland Park Paris,France,Europe,38
+4,2714,Disneyland Railroad Frontierland Depot,Disneyland Park Paris,France,Europe,24
 4,2708,Disneyland Railroad Main Street Station,Disneyland Park Paris,France,Europe,0
 291,7948,Futuropolis,Futuroscope,France,Europe,0
-291,13073,Hydro Dynamo,Futuroscope,France,Europe,6
+291,13073,Hydro Dynamo,Futuroscope,France,Europe,8
 291,14489,Rescue Academy,Futuroscope,France,Europe,0
 291,14737,Splash Adventure,Futuroscope,France,Europe,0
-1,7341,Gangsta Granny: The Ride,Alton Towers,England,Europe,5
+1,7341,Gangsta Granny: The Ride,Alton Towers,England,Europe,6
 49,6938,Cat-O-Pillar Coaster,Paultons Park,England,Europe,0
 49,6941,Digger Ride,Paultons Park,England,Europe,0
 49,3758,Cobra,Paultons Park,England,Europe,0
@@ -2203,32 +2203,32 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 311,11023,El Rio,Bobbejaanland,Belgium,Europe,5
 311,11018,Oki Doki,Bobbejaanland,Belgium,Europe,5
 311,11013,Revolution,Bobbejaanland,Belgium,Europe,5
-311,11022,Typhoon,Bobbejaanland,Belgium,Europe,9
+311,11022,Typhoon,Bobbejaanland,Belgium,Europe,11
 276,6776,Bengal Rapid River,Bellewaerde,Belgium,Europe,7
 276,6774,Big Chute,Bellewaerde,Belgium,Europe,5
 276,6770,Niagara,Bellewaerde,Belgium,Europe,10
 276,13490,Rio Do Café,Bellewaerde,Belgium,Europe,25
-301,9238,AirBoat,Walibi Rhône-Alpes,France,Europe,15
+301,9238,AirBoat,Walibi Rhône-Alpes,France,Europe,38
 301,9226,Balloon Race,Walibi Rhône-Alpes,France,Europe,10
 301,9207,Bambooz River,Walibi Rhône-Alpes,France,Europe,25
 301,9212,Carrousel,Walibi Rhône-Alpes,France,Europe,0
 301,9222,Concert'O,Walibi Rhône-Alpes,France,Europe,0
 301,13741,Festival Station,Walibi Rhône-Alpes,France,Europe,5
 301,9209,Gold River,Walibi Rhône-Alpes,France,Europe,20
-301,9225,Hurricane,Walibi Rhône-Alpes,France,Europe,47
+301,9225,Hurricane,Walibi Rhône-Alpes,France,Europe,60
 301,9221,La Chevauchée,Walibi Rhône-Alpes,France,Europe,5
 301,13740,La Coccinelle,Walibi Rhône-Alpes,France,Europe,10
 301,9223,Le Petit Vapeur,Walibi Rhône-Alpes,France,Europe,5
-301,9204,Le Totem,Walibi Rhône-Alpes,France,Europe,20
-301,9236,Les P'tits Chaudrons,Walibi Rhône-Alpes,France,Europe,45
+301,9204,Le Totem,Walibi Rhône-Alpes,France,Europe,13
+301,9236,Les P'tits Chaudrons,Walibi Rhône-Alpes,France,Europe,65
 301,12532,Mahuka,Walibi Rhône-Alpes,France,Europe,25
-301,9213,Melody Road ,Walibi Rhône-Alpes,France,Europe,5
+301,9213,Melody Road ,Walibi Rhône-Alpes,France,Europe,18
 301,9201,MonORail,Walibi Rhône-Alpes,France,Europe,10
 301,9237,Mystic,Walibi Rhône-Alpes,France,Europe,20
 301,9210,On Air,Walibi Rhône-Alpes,France,Europe,5
-301,9217,Surf Music,Walibi Rhône-Alpes,France,Europe,7
+301,9217,Surf Music,Walibi Rhône-Alpes,France,Europe,8
 301,10713,Tiki Academy,Walibi Rhône-Alpes,France,Europe,5
-301,9203,Timber,Walibi Rhône-Alpes,France,Europe,52
+301,9203,Timber,Walibi Rhône-Alpes,France,Europe,63
 301,9219,Volt-O-Vent,Walibi Rhône-Alpes,France,Europe,5
 301,9206,Woodstock Express,Walibi Rhône-Alpes,France,Europe,15
 1,4619,Galactica,Alton Towers,England,Europe,40
@@ -2239,17 +2239,17 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 49,10606,Teacup Ride,Paultons Park,England,Europe,0
 49,3793,EDGE,Paultons Park,England,Europe,0
 49,6950,Kontiki,Paultons Park,England,Europe,0
-56,6830,Winja‘s Force,Phantasialand,Germany,Europe,32
+56,6830,Winja‘s Force,Phantasialand,Germany,Europe,33
 311,11020,Bob Express,Bobbejaanland,Belgium,Europe,5
 311,11014,Dreamcatcher,Bobbejaanland,Belgium,Europe,5
-311,11021,Fury,Bobbejaanland,Belgium,Europe,5
+311,11021,Fury,Bobbejaanland,Belgium,Europe,9
 311,12537,Sledge Hammer,Bobbejaanland,Belgium,Europe,5
 311,11012,Speedy Bob,Bobbejaanland,Belgium,Europe,5
-311,11017,Terra Magma,Bobbejaanland,Belgium,Europe,5
+311,11017,Terra Magma,Bobbejaanland,Belgium,Europe,7
 298,8707,Batman Gotham City Escape,Parque Warner Madrid,Spain,Europe,5
 298,8705,Río Bravo,Parque Warner Madrid,Spain,Europe,5
 276,12998,Amazonia,Bellewaerde,Belgium,Europe,45
-49,6951,Magma,Paultons Park,England,Europe,0
+49,6951,Magma,Paultons Park,England,Europe,2
 291,14500,Alien,Futuroscope,France,Europe,0
 291,14497,Flash,Futuroscope,France,Europe,0
 291,14499,Quick,Futuroscope,France,Europe,0
@@ -2272,117 +2272,117 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 10,11890,Waikiki Wave (WW),Silver Dollar City,United States,North America,0
 1,4628,Hex - The Legend of the Towers,Alton Towers,England,Europe,5
 3,4574,Adventure Tree Carousel,Chessington World of Adventures,England,Europe,5
-3,67,Elmer's Flying Jumbos,Chessington World of Adventures,England,Europe,10
-3,80,Tiny Truckers,Chessington World of Adventures,England,Europe,25
+3,67,Elmer's Flying Jumbos,Chessington World of Adventures,England,Europe,13
+3,80,Tiny Truckers,Chessington World of Adventures,England,Europe,19
 3,8691,Croc Drop,Chessington World of Adventures,England,Europe,10
-3,85,Tomb Blaster,Chessington World of Adventures,England,Europe,10
+3,85,Tomb Blaster,Chessington World of Adventures,England,Europe,7
 3,62,Canopy Capers,Chessington World of Adventures,England,Europe,5
 3,66,Dragon's Playhouse - Soft Play,Chessington World of Adventures,England,Europe,5
 3,87,Griffin's Galleon,Chessington World of Adventures,England,Europe,5
 3,77,Sea Dragons,Chessington World of Adventures,England,Europe,5
-3,64,Tiger Rock,Chessington World of Adventures,England,Europe,5
-3,74,Rattlesnake,Chessington World of Adventures,England,Europe,30
-3,10889,Barrel Bail Out!,Chessington World of Adventures,England,Europe,5
-3,60,Blue Barnacle,Chessington World of Adventures,England,Europe,10
-3,78,Seastorm,Chessington World of Adventures,England,Europe,15
+3,64,Tiger Rock,Chessington World of Adventures,England,Europe,32
+3,74,Rattlesnake,Chessington World of Adventures,England,Europe,23
+3,10889,Barrel Bail Out!,Chessington World of Adventures,England,Europe,7
+3,60,Blue Barnacle,Chessington World of Adventures,England,Europe,7
+3,78,Seastorm,Chessington World of Adventures,England,Europe,9
 3,10890,Trawler Trouble,Chessington World of Adventures,England,Europe,5
-3,7336,Jungle Rangers,Chessington World of Adventures,England,Europe,10
-3,7976,River Rafts,Chessington World of Adventures,England,Europe,10
-3,69,Treetop Hoppers,Chessington World of Adventures,England,Europe,5
-3,84,ZUFARI,Chessington World of Adventures,England,Europe,5
-3,4535,The Gruffalo River Ride Adventure,Chessington World of Adventures,England,Europe,10
-3,83,Vampire,Chessington World of Adventures,England,Europe,70
+3,7336,Jungle Rangers,Chessington World of Adventures,England,Europe,16
+3,7976,River Rafts,Chessington World of Adventures,England,Europe,16
+3,69,Treetop Hoppers,Chessington World of Adventures,England,Europe,8
+3,84,ZUFARI,Chessington World of Adventures,England,Europe,8
+3,4535,The Gruffalo River Ride Adventure,Chessington World of Adventures,England,Europe,8
+3,83,Vampire,Chessington World of Adventures,England,Europe,31
 3,11862,Mamba Strike,Chessington World of Adventures,England,Europe,15
 3,11861,Ostrich Stampede,Chessington World of Adventures,England,Europe,15
 3,59,AMAZU: Treetop Adventure,Chessington World of Adventures,England,Europe,0
 3,6381,Room on the Broom - A Magical Journey,Chessington World of Adventures,England,Europe,5
 12,10756,Cinema 4D Experience:  Prezzemolo and the Mystery of the Hidden Worlds,Gardaland,Italy,Europe,10
-52,5548,The TEMPLE,Legoland Billund,Denmark,Europe,0
+52,5548,The TEMPLE,Legoland Billund,Denmark,Europe,3
 52,5549,X-treme Racers,Legoland Billund,Denmark,Europe,5
-52,5552,The Dragon,Legoland Billund,Denmark,Europe,10
+52,5552,The Dragon,Legoland Billund,Denmark,Europe,6
 52,5551,NINJAGO The Ride,Legoland Billund,Denmark,Europe,5
-52,5554,Flying Eagle,Legoland Billund,Denmark,Europe,15
+52,5554,Flying Eagle,Legoland Billund,Denmark,Europe,16
 52,5550,Ghost – The Haunted House,Legoland Billund,Denmark,Europe,0
 52,5546,LEGO® Canoe,Legoland Billund,Denmark,Europe,10
-52,5553,Polar X-plorer,Legoland Billund,Denmark,Europe,5
-52,8323,Apocalypseburg Sky Battle,Legoland Billund,Denmark,Europe,0
-52,8324,Emmet’s Flying Adventure - Masters of Flight,Legoland Billund,Denmark,Europe,5
-27,6596,Haunted House Monster Party,Legoland Windsor,England,Europe,5
+52,5553,Polar X-plorer,Legoland Billund,Denmark,Europe,12
+52,8323,Apocalypseburg Sky Battle,Legoland Billund,Denmark,Europe,7
+52,8324,Emmet’s Flying Adventure - Masters of Flight,Legoland Billund,Denmark,Europe,2
+27,6596,Haunted House Monster Party,Legoland Windsor,England,Europe,8
 27,13078,Minifigure Speedway,Legoland Windsor,England,Europe,5
-27,6593,DUPLO® Airport,Legoland Windsor,England,Europe,20
-27,7335,DUPLO® Dino Coaster,Legoland Windsor,England,Europe,15
+27,6593,DUPLO® Airport,Legoland Windsor,England,Europe,11
+27,7335,DUPLO® Dino Coaster,Legoland Windsor,England,Europe,9
 27,6592,DUPLO® Express,Legoland Windsor,England,Europe,5
 27,6594,Fairy Tale Brook,Legoland Windsor,England,Europe,5
 27,4594,LEGOLAND® Express,Legoland Windsor,England,Europe,5
 27,6585,Aero Nomad,Legoland Windsor,England,Europe,5
 27,6589,Desert Chase,Legoland Windsor,England,Europe,5
-27,6600,Laser Raiders,Legoland Windsor,England,Europe,15
+27,6600,Laser Raiders,Legoland Windsor,England,Europe,18
 27,6607,Scarab Bouncers,Legoland Windsor,England,Europe,5
 27,6611,Thunder Blazer,Legoland Windsor,England,Europe,5
 27,6591,Dragon's Apprentice,Legoland Windsor,England,Europe,5
 27,6598,Merlin's Challenge,Legoland Windsor,England,Europe,5
 27,6610,The Dragon,Legoland Windsor,England,Europe,5
-27,6587,Balloon School,Legoland Windsor,England,Europe,15
-27,6588,Coastguard HQ,Legoland Windsor,England,Europe,20
+27,6587,Balloon School,Legoland Windsor,England,Europe,9
+27,6588,Coastguard HQ,Legoland Windsor,England,Europe,17
 27,6595,Fire Academy,Legoland Windsor,England,Europe,10
-27,6599,L-Drivers,Legoland Windsor,England,Europe,5
-27,6586,LEGO® City Deep Sea Adventure,Legoland Windsor,England,Europe,5
-27,6601,LEGO® City Driving School,Legoland Windsor,England,Europe,5
-27,8823,Fire & Ice Freefall,Legoland Windsor,England,Europe,5
-27,8822,Flight of the Sky Lion,Legoland Windsor,England,Europe,10
-27,6606,Hydra's Challenge,Legoland Windsor,England,Europe,5
+27,6599,L-Drivers,Legoland Windsor,England,Europe,8
+27,6586,LEGO® City Deep Sea Adventure,Legoland Windsor,England,Europe,8
+27,6601,LEGO® City Driving School,Legoland Windsor,England,Europe,8
+27,8823,Fire & Ice Freefall,Legoland Windsor,England,Europe,8
+27,8822,Flight of the Sky Lion,Legoland Windsor,England,Europe,16
+27,6606,Hydra's Challenge,Legoland Windsor,England,Europe,8
 27,6590,Destiny's Bounty,Legoland Windsor,England,Europe,10
 27,6602,LEGO® NINJAGO® The Ride,Legoland Windsor,England,Europe,5
 27,6597,Jolly Rocker,Legoland Windsor,England,Europe,5
-27,6604,Pirate Falls Treasure Quest,Legoland Windsor,England,Europe,5
+27,6604,Pirate Falls Treasure Quest,Legoland Windsor,England,Europe,8
 27,6609,Spinning Spider,Legoland Windsor,England,Europe,5
-2,96,Colossus,Thorpe Park,England,Europe,30
-2,13079,Hyperia,Thorpe Park,England,Europe,45
-2,88,Nemesis Inferno,Thorpe Park,England,Europe,15
-2,104,SAW - The Ride,Thorpe Park,England,Europe,40
-2,103,The Swarm,Thorpe Park,England,Europe,15
-2,5558,The Walking Dead©: The Ride,Thorpe Park,England,Europe,5
-2,3884,Big Easy Bumpers,Thorpe Park,England,Europe,5
-2,108,Depth Charge,Thorpe Park,England,Europe,5
+2,96,Colossus,Thorpe Park,England,Europe,21
+2,13079,Hyperia,Thorpe Park,England,Europe,36
+2,88,Nemesis Inferno,Thorpe Park,England,Europe,9
+2,104,SAW - The Ride,Thorpe Park,England,Europe,25
+2,103,The Swarm,Thorpe Park,England,Europe,10
+2,5558,The Walking Dead©: The Ride,Thorpe Park,England,Europe,8
+2,3884,Big Easy Bumpers,Thorpe Park,England,Europe,8
+2,108,Depth Charge,Thorpe Park,England,Europe,11
 2,95,Dobble Tea Party,Thorpe Park,England,Europe,5
-2,93,Flying Fish,Thorpe Park,England,Europe,5
+2,93,Flying Fish,Thorpe Park,England,Europe,8
 2,10711,High Striker,Thorpe Park,England,Europe,5
 2,109,Mr Monkey's Banana Ride,Thorpe Park,England,Europe,5
 2,89,Detonator,Thorpe Park,England,Europe,5
 2,102,Quantum,Thorpe Park,England,Europe,5
-2,98,Rush,Thorpe Park,England,Europe,15
-2,99,Samurai,Thorpe Park,England,Europe,15
+2,98,Rush,Thorpe Park,England,Europe,12
+2,99,Samurai,Thorpe Park,England,Europe,11
 2,94,Storm Surge,Thorpe Park,England,Europe,10
-2,92,Tidal Wave,Thorpe Park,England,Europe,5
+2,92,Tidal Wave,Thorpe Park,England,Europe,11
 2,100,Vortex,Thorpe Park,England,Europe,10
 2,101,Zodiac,Thorpe Park,England,Europe,15
 290,14627,Camino del Sol,Djurs Sommerland,Denmark,Europe,0
 290,7924,Den Vilde Hønsejagt,Djurs Sommerland,Denmark,Europe,5
 290,10780,Dino Xpedition,Djurs Sommerland,Denmark,Europe,5
-290,7921,DrageKongen,Djurs Sommerland,Denmark,Europe,30
+290,7921,DrageKongen,Djurs Sommerland,Denmark,Europe,33
 290,11800,Drageskibet,Djurs Sommerland,Denmark,Europe,0
-290,13434,El Grito Drop Tower,Djurs Sommerland,Denmark,Europe,15
-290,11805,Fossilvaskeren,Djurs Sommerland,Denmark,Europe,5
+290,13434,El Grito Drop Tower,Djurs Sommerland,Denmark,Europe,17
+290,11805,Fossilvaskeren,Djurs Sommerland,Denmark,Europe,2
 290,10765,Jungle Rally,Djurs Sommerland,Denmark,Europe,0
-290,7926,Juvelen,Djurs Sommerland,Denmark,Europe,17
-290,7922,Long Cun Expedition,Djurs Sommerland,Denmark,Europe,5
+290,7926,Juvelen,Djurs Sommerland,Denmark,Europe,10
+290,7922,Long Cun Expedition,Djurs Sommerland,Denmark,Europe,2
 290,11804,Motorbike Derby,Djurs Sommerland,Denmark,Europe,0
-290,7919,Piraten,Djurs Sommerland,Denmark,Europe,15
-290,7920,Skatteøen,Djurs Sommerland,Denmark,Europe,5
-290,10764,Solguden,Djurs Sommerland,Denmark,Europe,0
+290,7919,Piraten,Djurs Sommerland,Denmark,Europe,16
+290,7920,Skatteøen,Djurs Sommerland,Denmark,Europe,8
+290,10764,Solguden,Djurs Sommerland,Denmark,Europe,6
 290,10763,Søulken,Djurs Sommerland,Denmark,Europe,5
 290,11803,SpinOsaurus,Djurs Sommerland,Denmark,Europe,5
 290,10779,T-Rex Family Coaster,Djurs Sommerland,Denmark,Europe,5
 290,7927,Thors Hammer,Djurs Sommerland,Denmark,Europe,5
 290,7923,Tigeren,Djurs Sommerland,Denmark,Europe,5
-290,10767,Wild West Karrusellen,Djurs Sommerland,Denmark,Europe,5
+290,10767,Wild West Karrusellen,Djurs Sommerland,Denmark,Europe,2
 160,6162,Stoomtrein Marerijk,Efteling,Netherlands,Europe,25
 18,7396,Den Røde Baron,Fårup Sommerland,Denmark,Europe,2
 18,2255,Falken,Fårup Sommerland,Denmark,Europe,2
 18,7400,Fårup Bådene,Fårup Sommerland,Denmark,Europe,2
-18,2256,Flagermusen,Fårup Sommerland,Denmark,Europe,2
+18,2256,Flagermusen,Fårup Sommerland,Denmark,Europe,5
 18,10504,FØNIX,Fårup Sommerland,Denmark,Europe,2
-18,7401,Heste,Fårup Sommerland,Denmark,Europe,2
+18,7401,Heste,Fårup Sommerland,Denmark,Europe,5
 18,4538,Hvirvelvinden,Fårup Sommerland,Denmark,Europe,2
 18,2261,Lynet,Fårup Sommerland,Denmark,Europe,7
 18,2260,Mine-Expressen,Fårup Sommerland,Denmark,Europe,2
@@ -2398,10 +2398,10 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 18,2259,Træstammerne,Fårup Sommerland,Denmark,Europe,2
 286,13414,KÄRNAPULTEN,Hansa Park,Germany,Europe,0
 49,6945,Professor Blast's Expedition Express,Paultons Park,England,Europe,0
-49,14511,Ghostly Manor,Paultons Park,England,Europe,15
+49,14511,Ghostly Manor,Paultons Park,England,Europe,13
 324,12174,Outlaw,Adventureland Resort,United States,North America,5
-311,11016,Naga Bay,Bobbejaanland,Belgium,Europe,15
-311,11019,Wild Water Slide,Bobbejaanland,Belgium,Europe,5
+311,11016,Naga Bay,Bobbejaanland,Belgium,Europe,12
+311,11019,Wild Water Slide,Bobbejaanland,Belgium,Europe,8
 48,10470,Aqua Twist,"La Ronde, Montreal",Canada,North America,0
 48,10471,Autos Tamponneuses,"La Ronde, Montreal",Canada,North America,0
 48,10473,Catapulte,"La Ronde, Montreal",Canada,North America,0
@@ -2499,3 +2499,20 @@ park_id,ride_id,ride_name,park_name,country,continent,avg_wait_time
 31,13868,Meet ShellieMay at Duffy and Friends Play House,Disneyland Hong Kong,Hong Kong,Asia,30
 31,13863,Meet StellaLou at Duffy and Friends Play House,Disneyland Hong Kong,Hong Kong,Asia,30
 275,8025,Jasmine's Flying Carpets,Tokyo DisneySea,Japan,Asia,10
+291,7943,The Gyrotour,Futuroscope,France,Europe,0
+301,9202,Generator,Walibi Rhône-Alpes,France,Europe,1
+1,4637,Rita,Alton Towers,England,Europe,25
+3,65,Dragon's Fury,Chessington World of Adventures,England,Europe,30
+3,11814,Mandrill Mayhem,Chessington World of Adventures,England,Europe,20
+27,6603,Autumn's Riding Adventure,Legoland Windsor,England,Europe,15
+2,4546,Ghost Train,Thorpe Park,England,Europe,30
+290,7925,Rio Grande Rafting,Djurs Sommerland,Denmark,Europe,20
+334,14738,Hiccup Wing Glider Single Rider,Epic Universe,United States,North America,0
+50,3765,Iron Dragon,Cedar Point,United States,North America,15
+50,3769,Millennium Force,Cedar Point,United States,North America,30
+50,3774,Valravn,Cedar Point,United States,North America,45
+50,4652,Cadillac Cars,Cedar Point,United States,North America,0
+50,4665,Helicopters,Cedar Point,United States,North America,0
+50,12814,Kiddy Kingdom Carrousel,Cedar Point,United States,North America,0
+50,4669,Mustangs,Cedar Point,United States,North America,0
+50,4680,Ocean Motion,Cedar Point,United States,North America,0
