@@ -17,8 +17,9 @@ Digital Futures DE12 Capstone Project - ETL and Streamlit
 - [Testing](#testing)
   - [Manual testing](#manual-testing)
   - [Validator testing](#validator-testing)
-- [Deployment](#deployment)
+- [App](#app)
   - [Live link](#live-link)
+  - [Setup](#setup)
 - [Resources and credits](#resources-and-credits)
   - [Data](#data)
   - [Media](#media)
@@ -106,6 +107,8 @@ Up until this project I had mostly used CSV files for practicing Pandas and Stre
 ![JSON structure](/readme_media/json_structure_diagram.png)
 ### Land field
 Further inconsistencies in the data source - the 'land' field either describes the type of ride, the name of the land the ride is located in, or null. This was difficult to spot early on as I didn't have experience telling me that's something to look out for. I intended originally to incorporate grouping by ride types in the data analysis, however the discovery of the inconsistencies quite late in the project meant I had to drop this field. It wasn't usable without significant cleaning and transformation, but in the future I will know to look out for this type of issue and potentially seek an alternative data source in a similar situation.
+### Dependencies for deployment
+
 ## Testing
 ### Manual testing
 - ***
@@ -113,10 +116,10 @@ Further inconsistencies in the data source - the 'land' field either describes t
 ### Validator testing
 - ***
 
-## Deployment
-- ***
-
+## App
 ### Live link
+[QueueVue app on Streamlit](https://queuevue.streamlit.app/)
+### Setup
 ***
 
 ## Resources and credits
