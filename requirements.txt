@@ -34,6 +34,7 @@ regex==2024.11.6
 setuptools==78.1.0
 six==1.17.0
 streamlit==1.35.0
+streamlit-lottie==0.0.5
 SQLAlchemy==2.0.40
 sqlfluff==3.3.1
 tblib==3.1.0
