@@ -7,10 +7,10 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 RAW_DATA_DIR = SCRIPT_DIR.parent / "data" / "raw"
 PARKS_FILE = RAW_DATA_DIR / "parks.json"
 QUEUE_TIMES_FILE = RAW_DATA_DIR / "queue_times_log.jsonl"
-MERGED_FILE = RAW_DATA_DIR.parent / "transformed" / "merged_parks_and_rides.csv"
+MERGED = RAW_DATA_DIR.parent / "transformed" / "merged_parks_and_rides.csv"
 
 # Ensure output directory exists
-MERGED_FILE.parent.mkdir(parents=True, exist_ok=True)
+MERGED.parent.mkdir(parents=True, exist_ok=True)
 
 
 def transform_parks():
@@ -26,7 +26,10 @@ def transform_parks():
             meta_prefix="company_"
         )
         # Rename columns for clarity
-        parks_df.rename(columns={"id": "park_id", "name": "park_name"}, inplace=True)
+        parks_df.rename(
+            columns={"id": "park_id", "name": "park_name"},
+            inplace=True
+        )
         # Set index to park_id
         parks_df.set_index("park_id", inplace=True)
 
@@ -95,8 +98,8 @@ def merge_dataframes(df_parks, df_rides):
         return
 
     merged_df = pd.merge(df_rides, df_parks, on="park_id", how="left")
-    merged_df.to_csv(MERGED_FILE, index=False)
-    print(f"Merged dataframe saved to {MERGED_FILE}")
+    merged_df.to_csv(MERGED, index=False)
+    print(f"Merged dataframe saved to {MERGED}")
 
 
 def main():

@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Importing the lottie animation
-url = requests.get("https://lottie.host/4810a552-ab6b-48f6-b86c-a3279f9a308d/QoTPUx0C9V.json")
+url = requests.get("https://lottie.host/4810a552-ab6b-48f6-b86c-a3279f9a308d/QoTPUx0C9V.json")  # noqa
 url_json = dict()
 if url.status_code == 200:
     url_json = url.json()
@@ -24,13 +24,13 @@ st.write("# Welcome to QueueVue")
 st.write("Explore theme park wait time stats and trends")
 
 st_lottie(url_json,
-    height=400,
-    width=400,
-    speed=0.5,
-    loop=True,
-    quality='high',
-    key='Rollercoaster'
-)
+          height=400,
+          width=400,
+          speed=0.5,
+          loop=True,
+          quality='high',
+          key='Rollercoaster'
+          )
 
 # Footer
 st.divider()
