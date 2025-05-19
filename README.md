@@ -41,8 +41,8 @@ I identified 5 user user stories for the MVP.
 The project progress was planned and tracked using Agile, as documented here in [GitHub Project](https://github.com/users/maria-grozova/projects/7)
 
 ### Schema design
+<a href="Schema design"><img src="/readme_media/schema.png" align="right" width="20%" ></a> 
 The initial schema design was intended to be a single CSV file, however due to encountering challenges over the time of the project this was adapted to 5 separate files using filtered views of the dataframe to calculate additional fields. The schema would be reviewed for v.2, given continuous development of the project. The chart shows the cleaned dataframe on the left and the final enriched output files on the right.
-*******
 
 ### Design choices
 <a href="Windows 95"><img src="/readme_media/windows_95.png" align="right" width="20%" ></a> 
@@ -77,12 +77,35 @@ This shows the longest recorded wait time in the region (continent - user input)
 ********
 
 ### Planned features
-- Live wait times page
+- Live wait times page\
+As the API data updates every 5 minutes, it would be interesting to set up a page that displays live wait times data and a comparison of live data to the historical gathered stats
+- Dataset growth\
+With the addition of regular data updates, the size of the dataset would eventually outgrow the current solution (selected for the restraints of the original brief). Here is an outline of how this would potentially change over time, based on my research
+*********
+**Phase 1 (Now to ~100MB)**
+- Pre-calculate everything
+- Save as 5 CSV files
+
+**Phase 2 (~100MB to ~1GB)**\
+Switch to incremental ETL:
+- Daily ETL job appends new rows to a daily partitioned format (/data/yyyy-mm-dd.parquet)
+
+In Streamlit:
+- Use @st.cache_data to load once and filter in memory (something I haven't explored yet at this point but could be implemented from the start on a future project)
+- Load only the most relevant subset (e.g., last 30 days, or only the rows needed for a filter)
+
+**Phase 3 (If growing beyond 1GB+)**\
+- Move to a lightweight database backend (e.g., SQLite or even PostgreSQL)
+- Store raw + processed data
+- Streamlit queries only the needed aggregates or filtered data
+*********
 ## Project learnings
 This being my first end-to-end ETL project, I encountered a number of challenges which resulted in a lot of learnings for future work.
 ### Data source
-Nested JSON bad
+Up until this project I had mostly used CSV files for practicing Pandas and Streamlit. Having a nested JSON presented a number of challenges I hadn't immediately picked up on. Firstly, due to the structure I had to write a function that would normalise the JSON before I am able to convert it into a Pandas dataframe. By initially testing it on a small number of park id's I missed the inconsistencies between different records where the ride entities are either nested within the land array or are up a level in the rides array. I made a diagram that helped me understand and fix this, however this meant my initial dataset fetched over multiple days was unusable. This was a good learning curve, but it did eat into my project time and I likely would've had a lot more success with a CSV or a flat JSON for my first end to end project.
 ![JSON structure](/readme_media/json_structure_diagram.png)
+### Land field
+Further inconsistencies in the data source - the 'land' field either describes the type of ride, the name of the land the ride is located in, or null. This was difficult to spot early on as I didn't have experience telling me that's something to look out for. I intended originally to incorporate grouping by ride types in the data analysis, however the discovery of the inconsistencies quite late in the project meant I had to drop this field. It wasn't usable without significant cleaning and transformation, but in the future I will know to look out for this type of issue and potentially seek an alternative data source in a similar situation.
 ## Testing
 ### Manual testing
 - ***
