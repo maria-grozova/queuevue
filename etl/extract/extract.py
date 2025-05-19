@@ -49,11 +49,8 @@ def get_queue_times_for_park(park_id):
     }
 
 
-# Define the number of times to run fetching and appending queue times to the JSONL
-FETCH_ITERATIONS = 2
-
 # Fetch and append queue times to JSONL file
-def update_queue_times_every_5_minutes():
+def update_queue_times():
     with open(PARKS_FILE, "r", encoding="utf-8") as f:
         parks_data = json.load(f)
 
@@ -65,20 +62,19 @@ def update_queue_times_every_5_minutes():
     print(f"Total parks found: {len(park_ids)}")
     print(f"Park IDs: {park_ids}")
 
-    for i in range(FETCH_ITERATIONS):  # Run FETCH_ITERATIONS times (every 5 min for the defined number of times)
-        print(f"Fetching queue times iteration {i+1}/2...")
+    print("Fetching queue times")
 
-        with open(QUEUE_FILE, "a", encoding="utf-8") as f:
-            for park_id in park_ids:
-                record = get_queue_times_for_park(park_id)
-                f.write(json.dumps(record) + "\n")
+    with open(QUEUE_FILE, "a", encoding="utf-8") as f:
+        for park_id in park_ids:
+            record = get_queue_times_for_park(park_id)
+            f.write(json.dumps(record) + "\n")
 
         print(f"Appended data at {datetime.now(timezone.utc).isoformat()}")
-        time.sleep(300)  # Wait 5 minutes
+        
 
 def main():
     save_parks_metadata()
-    update_queue_times_every_5_minutes()
+    update_queue_times()
 
 if __name__ == "__main__":
     main()
