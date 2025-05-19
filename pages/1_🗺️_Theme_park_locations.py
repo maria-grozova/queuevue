@@ -22,7 +22,7 @@ countries_df = pd.read_csv(parks_by_country)
 # Park location map
 st.title("Theme park locations")
 st.write("##### This is a map of theme parks, with each dot representing a tracked theme park")
-st.map(data=map_df, latitude=None, longitude=None, color='#00ABAD', size=None, zoom=1, use_container_width=True, width=None, height=None)
+st.map(data=map_df, latitude=None, longitude=None, color='#00ABAD', size=None, zoom=1, use_container_width=True)
 
 # Parks count by continent
 st.write("##### Theme parks tracked by continent:")
