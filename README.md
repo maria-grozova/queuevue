@@ -14,12 +14,17 @@ Digital Futures DE12 Capstone Project - ETL and Streamlit
 - [Features](#features)
   - [Existing features](#existing-features)
   - [Planned features](#planned-features)
+- [Project learnings](#project-learnings)
+  - [Data source](#data-source)
+  - [Land field](#land-field)
+  - [Dependencies for Streamlit deployment](#dependencies-for-streamlit-deployment)
+  - [Further considerations](#further-considerations)
 - [Testing](#testing)
   - [Manual testing](#manual-testing)
-  - [Validator testing](#validator-testing)
+  - [Automated testing](#automated-testing)
 - [App](#app)
   - [Live link](#live-link)
-  - [Setup](#setup)
+  - [Local setup](#local-setup)
 - [Resources and credits](#resources-and-credits)
   - [Data](#data)
   - [Media](#media)
@@ -52,35 +57,35 @@ I have always been a fan of theme parks and used to spend many hours playing Rol
 
 ## Features
 ### Existing features
-- Home page\
+- **Home page**\
 Clean but informative landing page explaining the purpose of the app, reference to the data source and an animation for some visual interest
 ********
-- Sidebar\
+- **Sidebar**\
 Simple navigation sidebar that can be toggled in or out, with CTA and a list of pages
 ********
-- Theme park locations map\
+- **Theme park locations map**\
 This shows the location of each theme park in the dataset as a marker on a map
 ********
-- Counter of theme parks by continent\
+- **Count of theme parks by continent**\
 Metrics showing the number of theme parks in each continent
 ********
-- Bar chart showing the number of theme parks by country\
+- **Bar chart showing the number of theme parks by country**\
 The chart displays how many theme parks are in each country, colour coded by continent. This allows users to gauge theme park popularity in different areas
 ********
-- Selector to filter the wait times page by continent\
+- **Selector to filter the wait times page by continent**\
 The selector lets users filter the page results by continent. This is a single-select filter, default value is Europe
 ********
-- Bar chart showing the average wait time by ride, grouped by theme park\
-The chart shows the average wait time for each ride, grouped by theme park. The data is filtered by continent (user input). It is worth noting that some rides and parks have an average wait time of 0 minutes, in which case the chart won't display visuals
+- **Bar chart showing the average wait time by ride, grouped by theme park**\
+The chart shows the average wait time for each ride, grouped by theme park. This helps demonstrate the most popular rides in each park. The data is filtered by continent (user input). It is worth noting that some rides and parks have an average wait time of 0 minutes, in which case the chart won't display visuals
 ********
-- Metric displaying the longest recorded wait time\
-This shows the longest recorded wait time in the region (continent - user input), as well as the ride name, theme park, country and date the wait time was recorded
+- **Metric displaying the longest recorded wait time**\
+This shows the longest recorded wait time in the region (continent - user input), as well as the ride name, theme park, country and date the wait time was recorded. It's an interesting metric to see and can be surprising how long people are willing to wait for their or their kids' favourite rides!
 ********
 
 ### Planned features
-- Live wait times page\
+- **Live wait times page**\
 As the API data updates every 5 minutes, it would be interesting to set up a page that displays live wait times data and a comparison of live data to the historical gathered stats
-- Dataset growth\
+- **Dataset growth**\
 With the addition of regular data updates, the size of the dataset would eventually outgrow the current solution (selected for the restraints of the original brief). Here is an outline of how this would potentially change over time, based on my research
 *********
 **Phase 1 (Now to ~100MB)**
@@ -89,16 +94,22 @@ With the addition of regular data updates, the size of the dataset would eventua
 
 **Phase 2 (~100MB to ~1GB)**\
 Switch to incremental ETL:
-- Daily ETL job appends new rows to a daily partitioned format (/data/yyyy-mm-dd.parquet)
+- Daily ETL job appends new rows to a daily partitioned format, change to parquet from CSV as dataset grows for optimisation (/data/yyyy-mm-dd.parquet)
+- Use AWS Glue Jobs (Python shell or Spark) or AWS Lambda for lightweight daily ETL, store in S3
+- Use Amazon Athena to query Parquet files in S3 directly using SQL, which is serverless and cost-efficient for ad hoc querying
 
 In Streamlit:
 - Use @st.cache_data to load once and filter in memory (something I haven't explored yet at this point but could be implemented from the start on a future project)
-- Load only the most relevant subset (e.g., last 30 days, or only the rows needed for a filter)
+- Use boto3 to fetch only relevant Parquet files from S3 (e.g., last 30 days or only the rows needed for a filter)
 
 **Phase 3 (If growing beyond 1GB+)**\
-- Move to a lightweight database backend (e.g., SQLite or even PostgreSQL)
+- Use Amazon RDS for a managed PostgreSQL instance
 - Store raw + processed data
-- Streamlit queries only the needed aggregates or filtered data
+
+In Streamlit:
+- Use psycopg2 or SQLAlchemy to connect to RDS
+- Query only the required subset and cache using @st.cache_data
+
 *********
 ## Project learnings
 This being my first end-to-end ETL project, I encountered a number of challenges which resulted in a lot of learnings for future work.
@@ -107,20 +118,27 @@ Up until this project I had mostly used CSV files for practicing Pandas and Stre
 ![JSON structure](/readme_media/json_structure_diagram.png)
 ### Land field
 Further inconsistencies in the data source - the 'land' field either describes the type of ride, the name of the land the ride is located in, or null. This was difficult to spot early on as I didn't have experience telling me that's something to look out for. I intended originally to incorporate grouping by ride types in the data analysis, however the discovery of the inconsistencies quite late in the project meant I had to drop this field. It wasn't usable without significant cleaning and transformation, but in the future I will know to look out for this type of issue and potentially seek an alternative data source in a similar situation.
-### Dependencies for deployment
-
+### Dependencies for Streamlit deployment
+During deployment, I encountered a dependency error caused by the psycopg2 package, which I resolved by switching to psycopg2-binary in the requirements.txt file. Additionally, I had to update the Streamlit version to enable the filter component I was using. After addressing these issues, the deployment completed successfully.
+### Further considerations
+I’ve included try-except blocks in the code to catch and handle potential errors. These blocks print messages indicating success or failure, which helps with debugging and improves code reliability. In the future, this could be enhanced by logging errors to a file or monitoring system for better tracking and analysis.\
+Currently, there are no security or privacy concerns since the dataset used is public. To future-proof the code, I would implement input validation, secure file handling, and consider anonymizing or encrypting sensitive data if private datasets are used in later iterations
 ## Testing
 ### Manual testing
-- ***
-
-### Validator testing
-- ***
-
+Manual testing of the outputs has been completed utilisting Jupyter notebooks. This involved running various test cases, inspecting the intermediate results, and validating the final outputs against expected values. The interactive environment of Jupyter allowed for step-by-step execution and easy debugging, ensuring the core functionalities perform as intended
+### Automated testing
+The automated pytest shows that all tests pass successfully, but the code coverage is below the required threshold of 90% (currently at 82%). I would look to improve the tests coverage in v.2, however a lot of the functions already include try/except blocks that are helpful if debugging is required
 ## App
 ### Live link
 [QueueVue app on Streamlit](https://queuevue.streamlit.app/)
-### Setup
-***
+### Local setup
+- Fork and clone the repo
+- Install and activate a virtual environment
+- Run command in terminal *pip install -r requirements-setup.txt*
+- Run command in terminal *pip install -e .*
+- To run ETL *run_etl {dev/test}*
+- To run tests *run_tests all*
+- To run Streamlit locally *streamlit run Home.py*
 
 ## Resources and credits
 ### Data
@@ -139,4 +157,3 @@ Further inconsistencies in the data source - the 'land' field either describes t
 - [Pandas documentation](https://pandas.pydata.org/docs/) for reference
 - Digital Futures - [ETL Project Demo](https://github.com/de-2502-a/etl-project-demo/tree/initial-project-setup) was referenced for the initial commit of this project
 - Special thank you to Hamza, Alex and Bassmah at Digital Futures for support and tips
-
