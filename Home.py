@@ -6,7 +6,8 @@ from streamlit_lottie import st_lottie
 st.set_page_config(
     page_title="queuevue",
     page_icon="🎢",
-    layout="centered"
+    layout="centered",
+    initial_sidebar_state="auto"
 )
 
 # Importing the lottie animation
