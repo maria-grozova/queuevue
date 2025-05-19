@@ -51,30 +51,30 @@ I have always been a fan of theme parks and used to spend many hours playing Rol
 
 ## Features
 ### Existing features
-- Home page
-******
+- Home page\
 Clean but informative landing page explaining the purpose of the app, reference to the data source and an animation for some visual interest
-- Sidebar
-******
+********
+- Sidebar\
 Simple navigation sidebar that can be toggled in or out, with CTA and a list of pages
-- Theme park locations map
 ********
+- Theme park locations map\
 This shows the location of each theme park in the dataset as a marker on a map
-- Counter of theme parks by continent
 ********
+- Counter of theme parks by continent\
 Metrics showing the number of theme parks in each continent
-- Bar chart showing the number of theme parks by country
 ********
-The chart displays how many theme parks are in each country, colour coded by continent. This allows users to gauge theme park popularity in different areas.
-- Selector to filter the wait times page by continent
+- Bar chart showing the number of theme parks by country\
+The chart displays how many theme parks are in each country, colour coded by continent. This allows users to gauge theme park popularity in different areas
 ********
+- Selector to filter the wait times page by continent\
 The selector lets users filter the page results by continent. This is a single-select filter, default value is Europe
-- Bar chart showing the average wait time by ride, grouped by theme park
 ********
+- Bar chart showing the average wait time by ride, grouped by theme park\
 The chart shows the average wait time for each ride, grouped by theme park. The data is filtered by continent (user input). It is worth noting that some rides and parks have an average wait time of 0 minutes, in which case the chart won't display visuals
-- Metric displaying the longest recorded wait time
 ********
+- Metric displaying the longest recorded wait time\
 This shows the longest recorded wait time in the region (continent - user input), as well as the ride name, theme park, country and date the wait time was recorded
+********
 
 ### Planned features
 - Live wait times page
